@@ -1,4 +1,4 @@
-Dec 21, 2025 11:27:55 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:20 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.use-timeout
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.use-timeout
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -11,7 +11,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:55 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:20 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.use-timeout
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.use-timeout
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -24,7 +24,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:55 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:20 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.lang.security.audit.insecure-transport.requests.request-with-http.request-with-http
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.lang.security.audit.insecure-transport.requests.request-with-http.request-with-http
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -37,7 +37,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:55 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:20 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.request-with-http
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.request-with-http
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -50,7 +50,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:55 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:21 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.lang.security.audit.insecure-transport.requests.request-with-http.request-with-http
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.lang.security.audit.insecure-transport.requests.request-with-http.request-with-http
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -63,7 +63,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:55 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:21 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.request-with-http
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.request-with-http
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -76,7 +76,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:55 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:21 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.use-raise-for-status
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.use-raise-for-status
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -89,7 +89,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:55 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:21 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.use-timeout
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.use-timeout
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -102,7 +102,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:55 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:21 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.lang.security.audit.insecure-transport.requests.request-with-http.request-with-http
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.lang.security.audit.insecure-transport.requests.request-with-http.request-with-http
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -115,7 +115,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:55 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:21 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.dangerous-subprocess-use
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.dangerous-subprocess-use
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -128,7 +128,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:55 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:21 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.lang.security.audit.formatted-sql-query.formatted-sql-query
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.lang.security.audit.formatted-sql-query.formatted-sql-query
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -141,7 +141,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:55 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:21 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -154,7 +154,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:55 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:21 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.formatted-sql-query
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.formatted-sql-query
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -167,7 +167,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:55 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:21 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.sqlalchemy-execute-raw-query
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.sqlalchemy-execute-raw-query
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -180,7 +180,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:55 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:21 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.lang.security.audit.formatted-sql-query.formatted-sql-query
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.lang.security.audit.formatted-sql-query.formatted-sql-query
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -193,7 +193,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:55 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:21 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -206,7 +206,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:55 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:21 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.formatted-sql-query
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.formatted-sql-query
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -219,7 +219,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:55 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:21 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.sqlalchemy-execute-raw-query
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.sqlalchemy-execute-raw-query
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -232,7 +232,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:55 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:21 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.missing-ratelimit
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.missing-ratelimit
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -245,7 +245,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:55 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.missing-ratelimit
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.missing-ratelimit
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -258,7 +258,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:55 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.lang.security.audit.formatted-sql-query.formatted-sql-query
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.lang.security.audit.formatted-sql-query.formatted-sql-query
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -271,7 +271,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:55 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -284,7 +284,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:55 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.formatted-sql-query
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.formatted-sql-query
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -297,7 +297,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:55 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.sqlalchemy-execute-raw-query
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.sqlalchemy-execute-raw-query
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -310,7 +310,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:55 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.lang.security.audit.formatted-sql-query.formatted-sql-query
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.lang.security.audit.formatted-sql-query.formatted-sql-query
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -323,7 +323,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:55 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -336,7 +336,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:55 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.formatted-sql-query
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.formatted-sql-query
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -349,7 +349,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:55 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.sqlalchemy-execute-raw-query
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.sqlalchemy-execute-raw-query
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -362,7 +362,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:55 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.lang.security.audit.formatted-sql-query.formatted-sql-query
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.lang.security.audit.formatted-sql-query.formatted-sql-query
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -375,7 +375,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:55 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -388,7 +388,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:55 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.formatted-sql-query
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.formatted-sql-query
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -401,7 +401,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.sqlalchemy-execute-raw-query
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.sqlalchemy-execute-raw-query
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -414,7 +414,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.flask.security.audit.hardcoded-config.avoid_hardcoded_config_SECRET_KEY
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.flask.security.audit.hardcoded-config.avoid_hardcoded_config_SECRET_KEY
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -427,7 +427,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.avoid_hardcoded_config_SECRET_KEY
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.avoid_hardcoded_config_SECRET_KEY
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -440,7 +440,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.flask-app-route-handler
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.flask-app-route-handler
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -453,7 +453,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.flask.security.audit.app-run-security-config.avoid_using_app_run_directly
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.flask.security.audit.app-run-security-config.avoid_using_app_run_directly
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -466,7 +466,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.flask.security.audit.debug-enabled.debug-enabled
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.flask.security.audit.debug-enabled.debug-enabled
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -479,7 +479,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.avoid_using_app_run_directly
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.avoid_using_app_run_directly
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -492,7 +492,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.debug-enabled
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.debug-enabled
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -505,7 +505,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.flask.security.audit.hardcoded-config.avoid_hardcoded_config_SECRET_KEY
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.flask.security.audit.hardcoded-config.avoid_hardcoded_config_SECRET_KEY
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -518,7 +518,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.avoid_hardcoded_config_SECRET_KEY
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.avoid_hardcoded_config_SECRET_KEY
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -531,7 +531,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.python-obfuscation-conditions
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.python-obfuscation-conditions
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -544,7 +544,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.flask-app-route-handler
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.flask-app-route-handler
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -557,7 +557,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.flask.security.audit.app-run-security-config.avoid_using_app_run_directly
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.flask.security.audit.app-run-security-config.avoid_using_app_run_directly
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -570,7 +570,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.flask.security.audit.debug-enabled.debug-enabled
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.flask.security.audit.debug-enabled.debug-enabled
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -583,7 +583,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.avoid_using_app_run_directly
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.avoid_using_app_run_directly
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -596,7 +596,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.debug-enabled
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.debug-enabled
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -609,7 +609,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.hardcoded-tmp-path
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.hardcoded-tmp-path
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -622,7 +622,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.dlint-catastrophic-redos
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.dlint-catastrophic-redos
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -635,7 +635,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.dlint-catastrophic-redos
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.dlint-catastrophic-redos
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -648,7 +648,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.dlint-catastrophic-redos
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.dlint-catastrophic-redos
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -661,7 +661,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.request-with-http
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.request-with-http
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -674,7 +674,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.request-with-http
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.request-with-http
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -687,7 +687,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.use-raise-for-status
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.use-raise-for-status
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -700,7 +700,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.use-timeout
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.use-timeout
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -713,7 +713,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.lang.security.audit.insecure-transport.requests.request-with-http.request-with-http
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.lang.security.audit.insecure-transport.requests.request-with-http.request-with-http
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -726,7 +726,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.jwt.security.jwt-hardcode.jwt-python-hardcoded-secret
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.jwt.security.jwt-hardcode.jwt-python-hardcoded-secret
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -739,7 +739,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.missing-ratelimit
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.missing-ratelimit
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -752,7 +752,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.missing-ratelimit
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.missing-ratelimit
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -765,7 +765,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.missing-ratelimit
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.missing-ratelimit
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -778,7 +778,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.missing-ratelimit
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.missing-ratelimit
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -791,7 +791,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.lang.security.audit.formatted-sql-query.formatted-sql-query
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.lang.security.audit.formatted-sql-query.formatted-sql-query
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -804,7 +804,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -817,7 +817,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.formatted-sql-query
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.formatted-sql-query
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -830,7 +830,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.sqlalchemy-execute-raw-query
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.sqlalchemy-execute-raw-query
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -843,20 +843,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
-SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.flask.security.audit.hardcoded-config.avoid_hardcoded_config_SECRET_KEY
-java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.flask.security.audit.hardcoded-config.avoid_hardcoded_config_SECRET_KEY
-	at java.base/java.lang.Enum.valueOf(Enum.java:274)
-	at ai.glog.plugins.bandit.plugin.BugEnum.valueOf(BugEnum.java:6)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.getResolver(TriageAndRemediationCallableWorker.java:97)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:62)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.code-after-unconditional-return
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.code-after-unconditional-return
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -869,98 +856,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
-SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.avoid_hardcoded_config_SECRET_KEY
-java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.avoid_hardcoded_config_SECRET_KEY
-	at java.base/java.lang.Enum.valueOf(Enum.java:274)
-	at ai.glog.plugins.bandit.plugin.BugEnum.valueOf(BugEnum.java:6)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.getResolver(TriageAndRemediationCallableWorker.java:97)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:62)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
-SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.flask-app-route-handler
-java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.flask-app-route-handler
-	at java.base/java.lang.Enum.valueOf(Enum.java:274)
-	at ai.glog.plugins.bandit.plugin.BugEnum.valueOf(BugEnum.java:6)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.getResolver(TriageAndRemediationCallableWorker.java:97)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:62)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
-SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.flask.security.audit.app-run-security-config.avoid_using_app_run_directly
-java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.flask.security.audit.app-run-security-config.avoid_using_app_run_directly
-	at java.base/java.lang.Enum.valueOf(Enum.java:274)
-	at ai.glog.plugins.bandit.plugin.BugEnum.valueOf(BugEnum.java:6)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.getResolver(TriageAndRemediationCallableWorker.java:97)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:62)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
-SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.flask.security.audit.debug-enabled.debug-enabled
-java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.flask.security.audit.debug-enabled.debug-enabled
-	at java.base/java.lang.Enum.valueOf(Enum.java:274)
-	at ai.glog.plugins.bandit.plugin.BugEnum.valueOf(BugEnum.java:6)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.getResolver(TriageAndRemediationCallableWorker.java:97)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:62)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
-SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.avoid_using_app_run_directly
-java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.avoid_using_app_run_directly
-	at java.base/java.lang.Enum.valueOf(Enum.java:274)
-	at ai.glog.plugins.bandit.plugin.BugEnum.valueOf(BugEnum.java:6)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.getResolver(TriageAndRemediationCallableWorker.java:97)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:62)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
-SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.debug-enabled
-java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.debug-enabled
-	at java.base/java.lang.Enum.valueOf(Enum.java:274)
-	at ai.glog.plugins.bandit.plugin.BugEnum.valueOf(BugEnum.java:6)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.getResolver(TriageAndRemediationCallableWorker.java:97)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:62)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
-SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.avoid_hardcoded_config_SECRET_KEY
-java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.avoid_hardcoded_config_SECRET_KEY
-	at java.base/java.lang.Enum.valueOf(Enum.java:274)
-	at ai.glog.plugins.bandit.plugin.BugEnum.valueOf(BugEnum.java:6)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.getResolver(TriageAndRemediationCallableWorker.java:97)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:62)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.flask.security.audit.hardcoded-config.avoid_hardcoded_config_SECRET_KEY
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.flask.security.audit.hardcoded-config.avoid_hardcoded_config_SECRET_KEY
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -973,7 +869,20 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.avoid_hardcoded_config_SECRET_KEY
+java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.avoid_hardcoded_config_SECRET_KEY
+	at java.base/java.lang.Enum.valueOf(Enum.java:274)
+	at ai.glog.plugins.bandit.plugin.BugEnum.valueOf(BugEnum.java:6)
+	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.getResolver(TriageAndRemediationCallableWorker.java:97)
+	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:62)
+	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.flask-app-route-handler
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.flask-app-route-handler
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -986,7 +895,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.flask.security.audit.app-run-security-config.avoid_using_app_run_directly
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.flask.security.audit.app-run-security-config.avoid_using_app_run_directly
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -999,7 +908,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.flask.security.audit.debug-enabled.debug-enabled
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.flask.security.audit.debug-enabled.debug-enabled
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -1012,7 +921,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.avoid_using_app_run_directly
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.avoid_using_app_run_directly
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -1025,7 +934,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.debug-enabled
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.debug-enabled
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -1038,7 +947,98 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.flask.security.audit.hardcoded-config.avoid_hardcoded_config_SECRET_KEY
+java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.flask.security.audit.hardcoded-config.avoid_hardcoded_config_SECRET_KEY
+	at java.base/java.lang.Enum.valueOf(Enum.java:274)
+	at ai.glog.plugins.bandit.plugin.BugEnum.valueOf(BugEnum.java:6)
+	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.getResolver(TriageAndRemediationCallableWorker.java:97)
+	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:62)
+	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.avoid_hardcoded_config_SECRET_KEY
+java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.avoid_hardcoded_config_SECRET_KEY
+	at java.base/java.lang.Enum.valueOf(Enum.java:274)
+	at ai.glog.plugins.bandit.plugin.BugEnum.valueOf(BugEnum.java:6)
+	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.getResolver(TriageAndRemediationCallableWorker.java:97)
+	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:62)
+	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.flask-app-route-handler
+java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.flask-app-route-handler
+	at java.base/java.lang.Enum.valueOf(Enum.java:274)
+	at ai.glog.plugins.bandit.plugin.BugEnum.valueOf(BugEnum.java:6)
+	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.getResolver(TriageAndRemediationCallableWorker.java:97)
+	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:62)
+	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.flask.security.audit.app-run-security-config.avoid_using_app_run_directly
+java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.flask.security.audit.app-run-security-config.avoid_using_app_run_directly
+	at java.base/java.lang.Enum.valueOf(Enum.java:274)
+	at ai.glog.plugins.bandit.plugin.BugEnum.valueOf(BugEnum.java:6)
+	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.getResolver(TriageAndRemediationCallableWorker.java:97)
+	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:62)
+	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.flask.security.audit.debug-enabled.debug-enabled
+java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.python.flask.security.audit.debug-enabled.debug-enabled
+	at java.base/java.lang.Enum.valueOf(Enum.java:274)
+	at ai.glog.plugins.bandit.plugin.BugEnum.valueOf(BugEnum.java:6)
+	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.getResolver(TriageAndRemediationCallableWorker.java:97)
+	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:62)
+	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.avoid_using_app_run_directly
+java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.avoid_using_app_run_directly
+	at java.base/java.lang.Enum.valueOf(Enum.java:274)
+	at ai.glog.plugins.bandit.plugin.BugEnum.valueOf(BugEnum.java:6)
+	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.getResolver(TriageAndRemediationCallableWorker.java:97)
+	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:62)
+	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.debug-enabled
+java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.debug-enabled
+	at java.base/java.lang.Enum.valueOf(Enum.java:274)
+	at ai.glog.plugins.bandit.plugin.BugEnum.valueOf(BugEnum.java:6)
+	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.getResolver(TriageAndRemediationCallableWorker.java:97)
+	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:62)
+	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.hardcoded-tmp-path
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.hardcoded-tmp-path
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -1051,7 +1051,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.hardcoded-tmp-path
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.hardcoded-tmp-path
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -1064,7 +1064,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.hardcoded-tmp-path
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.hardcoded-tmp-path
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -1077,7 +1077,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.hardcoded-tmp-path
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.hardcoded-tmp-path
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -1090,7 +1090,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.hardcoded-tmp-path
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.hardcoded-tmp-path
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -1103,7 +1103,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.hardcoded-tmp-path
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.hardcoded-tmp-path
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -1116,7 +1116,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.hardcoded-tmp-path
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.hardcoded-tmp-path
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -1129,7 +1129,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.hardcoded-tmp-path
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.hardcoded-tmp-path
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -1142,7 +1142,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.hardcoded-tmp-path
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.hardcoded-tmp-path
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -1155,7 +1155,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.use-raise-for-status
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.use-raise-for-status
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -1168,7 +1168,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.use-timeout
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.use-timeout
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -1181,7 +1181,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.use-raise-for-status
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.use-raise-for-status
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -1194,7 +1194,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.use-timeout
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.use-timeout
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -1207,7 +1207,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.hardcoded-tmp-path
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.hardcoded-tmp-path
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -1220,7 +1220,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:22 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.hardcoded-tmp-path
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.hardcoded-tmp-path
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -1233,7 +1233,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:23 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.hardcoded-tmp-path
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.hardcoded-tmp-path
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -1246,7 +1246,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:23 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.hardcoded-tmp-path
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.hardcoded-tmp-path
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -1259,7 +1259,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:23 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.hardcoded-tmp-path
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.hardcoded-tmp-path
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -1272,7 +1272,7 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Dec 21, 2025 11:27:56 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
+Jan 05, 2026 1:14:23 PM ai.glog.execute.workers.TriageAndRemediationCallableWorker call
 SEVERE: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.hardcoded-tmp-path
 java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plugin.BugEnum.resources.rules.python.hardcoded-tmp-path
 	at java.base/java.lang.Enum.valueOf(Enum.java:274)
@@ -1284,655 +1284,4 @@ java.lang.IllegalArgumentException: No enum constant ai.glog.plugins.bandit.plug
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
-
-Dec 21, 2025 11:27:57 PM ai.glog.service.GlogService getFromGlog
-SEVERE: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-{"detail":"Invalid token."}
-com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.Gson.fromJson(Gson.java:1003)
-	at com.google.gson.Gson.fromJson(Gson.java:956)
-	at com.google.gson.Gson.fromJson(Gson.java:905)
-	at ai.glog.service.GlogService.getFromGlog(GlogService.java:174)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.setGeneralRemediation(TriageAndRemediationCallableWorker.java:208)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:74)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
-	at com.google.gson.Gson.fromJson(Gson.java:991)
-	... 10 more
-
-Dec 21, 2025 11:27:57 PM ai.glog.service.GlogService getFromGlog
-SEVERE: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-{"detail":"Invalid token."}
-com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.Gson.fromJson(Gson.java:1003)
-	at com.google.gson.Gson.fromJson(Gson.java:956)
-	at com.google.gson.Gson.fromJson(Gson.java:905)
-	at ai.glog.service.GlogService.getFromGlog(GlogService.java:174)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.setGeneralRemediation(TriageAndRemediationCallableWorker.java:208)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:64)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
-	at com.google.gson.Gson.fromJson(Gson.java:991)
-	... 10 more
-
-Dec 21, 2025 11:27:57 PM ai.glog.service.GlogService getFromGlog
-SEVERE: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-{"detail":"Invalid token."}
-com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.Gson.fromJson(Gson.java:1003)
-	at com.google.gson.Gson.fromJson(Gson.java:956)
-	at com.google.gson.Gson.fromJson(Gson.java:905)
-	at ai.glog.service.GlogService.getFromGlog(GlogService.java:174)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.setGeneralRemediation(TriageAndRemediationCallableWorker.java:208)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:74)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
-	at com.google.gson.Gson.fromJson(Gson.java:991)
-	... 10 more
-
-Dec 21, 2025 11:27:57 PM ai.glog.service.GlogService getFromGlog
-SEVERE: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-{"detail":"Invalid token."}
-com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.Gson.fromJson(Gson.java:1003)
-	at com.google.gson.Gson.fromJson(Gson.java:956)
-	at com.google.gson.Gson.fromJson(Gson.java:905)
-	at ai.glog.service.GlogService.getFromGlog(GlogService.java:174)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.setGeneralRemediation(TriageAndRemediationCallableWorker.java:208)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:74)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
-	at com.google.gson.Gson.fromJson(Gson.java:991)
-	... 10 more
-
-Dec 21, 2025 11:27:57 PM ai.glog.service.GlogService getFromGlog
-SEVERE: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-{"detail":"Invalid token."}
-com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.Gson.fromJson(Gson.java:1003)
-	at com.google.gson.Gson.fromJson(Gson.java:956)
-	at com.google.gson.Gson.fromJson(Gson.java:905)
-	at ai.glog.service.GlogService.getFromGlog(GlogService.java:174)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.setGeneralRemediation(TriageAndRemediationCallableWorker.java:208)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:64)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
-	at com.google.gson.Gson.fromJson(Gson.java:991)
-	... 10 more
-
-Dec 21, 2025 11:27:57 PM ai.glog.service.GlogService getFromGlog
-SEVERE: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-{"detail":"Invalid token."}
-com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.Gson.fromJson(Gson.java:1003)
-	at com.google.gson.Gson.fromJson(Gson.java:956)
-	at com.google.gson.Gson.fromJson(Gson.java:905)
-	at ai.glog.service.GlogService.getFromGlog(GlogService.java:174)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.setGeneralRemediation(TriageAndRemediationCallableWorker.java:208)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:64)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
-	at com.google.gson.Gson.fromJson(Gson.java:991)
-	... 10 more
-
-Dec 21, 2025 11:27:57 PM ai.glog.service.GlogService getFromGlog
-SEVERE: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-{"detail":"Invalid token."}
-com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.Gson.fromJson(Gson.java:1003)
-	at com.google.gson.Gson.fromJson(Gson.java:956)
-	at com.google.gson.Gson.fromJson(Gson.java:905)
-	at ai.glog.service.GlogService.getFromGlog(GlogService.java:174)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.setGeneralRemediation(TriageAndRemediationCallableWorker.java:208)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:64)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
-	at com.google.gson.Gson.fromJson(Gson.java:991)
-	... 10 more
-
-Dec 21, 2025 11:27:57 PM ai.glog.service.GlogService getFromGlog
-SEVERE: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-{"detail":"Invalid token."}
-com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.Gson.fromJson(Gson.java:1003)
-	at com.google.gson.Gson.fromJson(Gson.java:956)
-	at com.google.gson.Gson.fromJson(Gson.java:905)
-	at ai.glog.service.GlogService.getFromGlog(GlogService.java:174)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.setGeneralRemediation(TriageAndRemediationCallableWorker.java:208)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:74)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
-	at com.google.gson.Gson.fromJson(Gson.java:991)
-	... 10 more
-
-Dec 21, 2025 11:27:58 PM ai.glog.service.GlogService getFromGlog
-SEVERE: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-{"detail":"Invalid token."}
-com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.Gson.fromJson(Gson.java:1003)
-	at com.google.gson.Gson.fromJson(Gson.java:956)
-	at com.google.gson.Gson.fromJson(Gson.java:905)
-	at ai.glog.service.GlogService.getFromGlog(GlogService.java:174)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.setGeneralRemediation(TriageAndRemediationCallableWorker.java:208)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:74)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
-	at com.google.gson.Gson.fromJson(Gson.java:991)
-	... 10 more
-
-Dec 21, 2025 11:27:58 PM ai.glog.service.GlogService getFromGlog
-SEVERE: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-{"detail":"Invalid token."}
-com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.Gson.fromJson(Gson.java:1003)
-	at com.google.gson.Gson.fromJson(Gson.java:956)
-	at com.google.gson.Gson.fromJson(Gson.java:905)
-	at ai.glog.service.GlogService.getFromGlog(GlogService.java:174)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.setGeneralRemediation(TriageAndRemediationCallableWorker.java:208)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:74)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
-	at com.google.gson.Gson.fromJson(Gson.java:991)
-	... 10 more
-
-Dec 21, 2025 11:27:58 PM ai.glog.service.GlogService getFromGlog
-SEVERE: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-{"detail":"Invalid token."}
-com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.Gson.fromJson(Gson.java:1003)
-	at com.google.gson.Gson.fromJson(Gson.java:956)
-	at com.google.gson.Gson.fromJson(Gson.java:905)
-	at ai.glog.service.GlogService.getFromGlog(GlogService.java:174)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.setGeneralRemediation(TriageAndRemediationCallableWorker.java:208)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:74)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
-	at com.google.gson.Gson.fromJson(Gson.java:991)
-	... 10 more
-
-Dec 21, 2025 11:27:58 PM ai.glog.service.GlogService getFromGlog
-SEVERE: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-{"detail":"Invalid token."}
-com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.Gson.fromJson(Gson.java:1003)
-	at com.google.gson.Gson.fromJson(Gson.java:956)
-	at com.google.gson.Gson.fromJson(Gson.java:905)
-	at ai.glog.service.GlogService.getFromGlog(GlogService.java:174)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.setGeneralRemediation(TriageAndRemediationCallableWorker.java:208)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:74)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
-	at com.google.gson.Gson.fromJson(Gson.java:991)
-	... 10 more
-
-Dec 21, 2025 11:27:58 PM ai.glog.service.GlogService getFromGlog
-SEVERE: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-{"detail":"Invalid token."}
-com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.Gson.fromJson(Gson.java:1003)
-	at com.google.gson.Gson.fromJson(Gson.java:956)
-	at com.google.gson.Gson.fromJson(Gson.java:905)
-	at ai.glog.service.GlogService.getFromGlog(GlogService.java:174)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.setGeneralRemediation(TriageAndRemediationCallableWorker.java:208)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:74)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
-	at com.google.gson.Gson.fromJson(Gson.java:991)
-	... 10 more
-
-Dec 21, 2025 11:27:58 PM ai.glog.service.GlogService getFromGlog
-SEVERE: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-{"detail":"Invalid token."}
-com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.Gson.fromJson(Gson.java:1003)
-	at com.google.gson.Gson.fromJson(Gson.java:956)
-	at com.google.gson.Gson.fromJson(Gson.java:905)
-	at ai.glog.service.GlogService.getFromGlog(GlogService.java:174)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.setGeneralRemediation(TriageAndRemediationCallableWorker.java:208)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:74)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
-	at com.google.gson.Gson.fromJson(Gson.java:991)
-	... 10 more
-
-Dec 21, 2025 11:27:58 PM ai.glog.service.GlogService getFromGlog
-SEVERE: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-{"detail":"Invalid token."}
-com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.Gson.fromJson(Gson.java:1003)
-	at com.google.gson.Gson.fromJson(Gson.java:956)
-	at com.google.gson.Gson.fromJson(Gson.java:905)
-	at ai.glog.service.GlogService.getFromGlog(GlogService.java:174)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.setGeneralRemediation(TriageAndRemediationCallableWorker.java:208)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:74)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
-	at com.google.gson.Gson.fromJson(Gson.java:991)
-	... 10 more
-
-Dec 21, 2025 11:27:58 PM ai.glog.service.GlogService getFromGlog
-SEVERE: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-{"detail":"Invalid token."}
-com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.Gson.fromJson(Gson.java:1003)
-	at com.google.gson.Gson.fromJson(Gson.java:956)
-	at com.google.gson.Gson.fromJson(Gson.java:905)
-	at ai.glog.service.GlogService.getFromGlog(GlogService.java:174)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.setGeneralRemediation(TriageAndRemediationCallableWorker.java:208)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:74)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
-	at com.google.gson.Gson.fromJson(Gson.java:991)
-	... 10 more
-
-Dec 21, 2025 11:27:59 PM ai.glog.service.GlogService getFromGlog
-SEVERE: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-{"detail":"Invalid token."}
-com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.Gson.fromJson(Gson.java:1003)
-	at com.google.gson.Gson.fromJson(Gson.java:956)
-	at com.google.gson.Gson.fromJson(Gson.java:905)
-	at ai.glog.service.GlogService.getFromGlog(GlogService.java:174)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.setGeneralRemediation(TriageAndRemediationCallableWorker.java:208)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:74)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
-	at com.google.gson.Gson.fromJson(Gson.java:991)
-	... 10 more
-
-Dec 21, 2025 11:27:59 PM ai.glog.service.GlogService getFromGlog
-SEVERE: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-{"detail":"Invalid token."}
-com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.Gson.fromJson(Gson.java:1003)
-	at com.google.gson.Gson.fromJson(Gson.java:956)
-	at com.google.gson.Gson.fromJson(Gson.java:905)
-	at ai.glog.service.GlogService.getFromGlog(GlogService.java:174)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.setGeneralRemediation(TriageAndRemediationCallableWorker.java:208)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:74)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
-	at com.google.gson.Gson.fromJson(Gson.java:991)
-	... 10 more
-
-Dec 21, 2025 11:27:59 PM ai.glog.service.GlogService getFromGlog
-SEVERE: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-{"detail":"Invalid token."}
-com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.Gson.fromJson(Gson.java:1003)
-	at com.google.gson.Gson.fromJson(Gson.java:956)
-	at com.google.gson.Gson.fromJson(Gson.java:905)
-	at ai.glog.service.GlogService.getFromGlog(GlogService.java:174)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.setGeneralRemediation(TriageAndRemediationCallableWorker.java:208)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:74)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
-	at com.google.gson.Gson.fromJson(Gson.java:991)
-	... 10 more
-
-Dec 21, 2025 11:27:59 PM ai.glog.service.GlogService getFromGlog
-SEVERE: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-{"detail":"Invalid token."}
-com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.Gson.fromJson(Gson.java:1003)
-	at com.google.gson.Gson.fromJson(Gson.java:956)
-	at com.google.gson.Gson.fromJson(Gson.java:905)
-	at ai.glog.service.GlogService.getFromGlog(GlogService.java:174)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.setGeneralRemediation(TriageAndRemediationCallableWorker.java:208)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:74)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
-	at com.google.gson.Gson.fromJson(Gson.java:991)
-	... 10 more
-
-Dec 21, 2025 11:27:59 PM ai.glog.service.GlogService getFromGlog
-SEVERE: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-{"detail":"Invalid token."}
-com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.Gson.fromJson(Gson.java:1003)
-	at com.google.gson.Gson.fromJson(Gson.java:956)
-	at com.google.gson.Gson.fromJson(Gson.java:905)
-	at ai.glog.service.GlogService.getFromGlog(GlogService.java:174)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.setGeneralRemediation(TriageAndRemediationCallableWorker.java:208)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:74)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
-	at com.google.gson.Gson.fromJson(Gson.java:991)
-	... 10 more
-
-Dec 21, 2025 11:27:59 PM ai.glog.service.GlogService getFromGlog
-SEVERE: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-{"detail":"Invalid token."}
-com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.Gson.fromJson(Gson.java:1003)
-	at com.google.gson.Gson.fromJson(Gson.java:956)
-	at com.google.gson.Gson.fromJson(Gson.java:905)
-	at ai.glog.service.GlogService.getFromGlog(GlogService.java:174)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.setGeneralRemediation(TriageAndRemediationCallableWorker.java:208)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:74)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
-	at com.google.gson.Gson.fromJson(Gson.java:991)
-	... 10 more
-
-Dec 21, 2025 11:27:59 PM ai.glog.service.GlogService getFromGlog
-SEVERE: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-{"detail":"Invalid token."}
-com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.Gson.fromJson(Gson.java:1003)
-	at com.google.gson.Gson.fromJson(Gson.java:956)
-	at com.google.gson.Gson.fromJson(Gson.java:905)
-	at ai.glog.service.GlogService.getFromGlog(GlogService.java:174)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.setGeneralRemediation(TriageAndRemediationCallableWorker.java:208)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:74)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
-	at com.google.gson.Gson.fromJson(Gson.java:991)
-	... 10 more
-
-Dec 21, 2025 11:27:59 PM ai.glog.service.GlogService getFromGlog
-SEVERE: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-{"detail":"Invalid token."}
-com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.Gson.fromJson(Gson.java:1003)
-	at com.google.gson.Gson.fromJson(Gson.java:956)
-	at com.google.gson.Gson.fromJson(Gson.java:905)
-	at ai.glog.service.GlogService.getFromGlog(GlogService.java:174)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.setGeneralRemediation(TriageAndRemediationCallableWorker.java:208)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:74)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
-	at com.google.gson.Gson.fromJson(Gson.java:991)
-	... 10 more
-
-Dec 21, 2025 11:28:00 PM ai.glog.service.GlogService getFromGlog
-SEVERE: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-{"detail":"Invalid token."}
-com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.Gson.fromJson(Gson.java:1003)
-	at com.google.gson.Gson.fromJson(Gson.java:956)
-	at com.google.gson.Gson.fromJson(Gson.java:905)
-	at ai.glog.service.GlogService.getFromGlog(GlogService.java:174)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.setGeneralRemediation(TriageAndRemediationCallableWorker.java:208)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:74)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
-	at com.google.gson.Gson.fromJson(Gson.java:991)
-	... 10 more
-
-Dec 21, 2025 11:28:00 PM ai.glog.service.GlogService getFromGlog
-SEVERE: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-{"detail":"Invalid token."}
-com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.Gson.fromJson(Gson.java:1003)
-	at com.google.gson.Gson.fromJson(Gson.java:956)
-	at com.google.gson.Gson.fromJson(Gson.java:905)
-	at ai.glog.service.GlogService.getFromGlog(GlogService.java:174)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.setGeneralRemediation(TriageAndRemediationCallableWorker.java:208)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:74)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
-	at com.google.gson.Gson.fromJson(Gson.java:991)
-	... 10 more
-
-Dec 21, 2025 11:28:00 PM ai.glog.service.GlogService getFromGlog
-SEVERE: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-{"detail":"Invalid token."}
-com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.Gson.fromJson(Gson.java:1003)
-	at com.google.gson.Gson.fromJson(Gson.java:956)
-	at com.google.gson.Gson.fromJson(Gson.java:905)
-	at ai.glog.service.GlogService.getFromGlog(GlogService.java:174)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.setGeneralRemediation(TriageAndRemediationCallableWorker.java:208)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:74)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
-	at com.google.gson.Gson.fromJson(Gson.java:991)
-	... 10 more
-
-Dec 21, 2025 11:28:00 PM ai.glog.service.GlogService getFromGlog
-SEVERE: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-{"detail":"Invalid token."}
-com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.Gson.fromJson(Gson.java:1003)
-	at com.google.gson.Gson.fromJson(Gson.java:956)
-	at com.google.gson.Gson.fromJson(Gson.java:905)
-	at ai.glog.service.GlogService.getFromGlog(GlogService.java:174)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.setGeneralRemediation(TriageAndRemediationCallableWorker.java:208)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:74)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
-	at com.google.gson.Gson.fromJson(Gson.java:991)
-	... 10 more
-
-Dec 21, 2025 11:28:00 PM ai.glog.service.GlogService getFromGlog
-SEVERE: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-{"detail":"Invalid token."}
-com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.Gson.fromJson(Gson.java:1003)
-	at com.google.gson.Gson.fromJson(Gson.java:956)
-	at com.google.gson.Gson.fromJson(Gson.java:905)
-	at ai.glog.service.GlogService.getFromGlog(GlogService.java:174)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.setGeneralRemediation(TriageAndRemediationCallableWorker.java:208)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:74)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
-	at com.google.gson.Gson.fromJson(Gson.java:991)
-	... 10 more
-
-Dec 21, 2025 11:28:00 PM ai.glog.service.GlogService getFromGlog
-SEVERE: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-{"detail":"Invalid token."}
-com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.Gson.fromJson(Gson.java:1003)
-	at com.google.gson.Gson.fromJson(Gson.java:956)
-	at com.google.gson.Gson.fromJson(Gson.java:905)
-	at ai.glog.service.GlogService.getFromGlog(GlogService.java:174)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.setGeneralRemediation(TriageAndRemediationCallableWorker.java:208)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:74)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
-	at com.google.gson.Gson.fromJson(Gson.java:991)
-	... 10 more
-
-Dec 21, 2025 11:28:00 PM ai.glog.service.GlogService getFromGlog
-SEVERE: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-{"detail":"Invalid token."}
-com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.Gson.fromJson(Gson.java:1003)
-	at com.google.gson.Gson.fromJson(Gson.java:956)
-	at com.google.gson.Gson.fromJson(Gson.java:905)
-	at ai.glog.service.GlogService.getFromGlog(GlogService.java:174)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.setGeneralRemediation(TriageAndRemediationCallableWorker.java:208)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:74)
-	at ai.glog.execute.workers.TriageAndRemediationCallableWorker.call(TriageAndRemediationCallableWorker.java:32)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
-	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
-	at com.google.gson.Gson.fromJson(Gson.java:991)
-	... 10 more
 
